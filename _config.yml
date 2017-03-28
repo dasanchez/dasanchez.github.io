@@ -27,7 +27,7 @@ github_username:  dasanchez
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: minimal
 gems:
   - jekyll-feed
 exclude:
