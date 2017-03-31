@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm Dante Sanchez, an Mechanical Engineer in Toronto.
+I'm Dante Sanchez, a Mechanical Engineer in Toronto.
 
 # [](#header-2)Posts
 
