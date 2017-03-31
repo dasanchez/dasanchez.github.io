@@ -48,7 +48,7 @@ I follow the same steps above to bring in and trace the signature.
 ![Full engraving](/assets/img/01/06_Engraving.PNG)
 
 
-All that is left is to hide the _Usable_ area" and _Artwork_ layers before saving the file as a PDF. I open the file in Adobe Reader and do a quick check on the shapes and outlines, mostly making sure the "construction" layers are not visible.
+All that is left is to hide the _Usable area_ and _Artwork_ layers before saving the file as a PDF. I open the file in Adobe Reader and do a quick check on the shapes and outlines, mostly making sure the "construction" layers are not visible.
 
 ![PDF QC](/assets/img/01/07_PDF.PNG)
 
