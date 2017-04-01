@@ -3,7 +3,7 @@ layout: default
 ---
 [Home](/)
 
-I'm Dante Sanchez, an Mechanical Engineer in Toronto.
+I'm Dante Sanchez, a Mechanical Engineer in Toronto.
 
 <a href="mailto:dante.a.sanchez@gmail.com"><i class="fa fa-envelope"></i></a>
 <a href="http://linkedin.com/in/dante-sanchez-65465717"><i class="fa fa-linkedin"></i></a>
