@@ -2,8 +2,9 @@
 layout: default
 ---
 
-I'm Dante Sanchez, an Mechanical Engineer in Toronto.
+[About](/about)
 
-# [](#header-2)Posts
+
+## Posts
 
 1. [Laser engraving with Inkscape](/posts/01_LE_Inkscape).
