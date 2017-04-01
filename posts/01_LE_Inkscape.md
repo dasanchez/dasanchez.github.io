@@ -5,9 +5,9 @@ layout: default
 
 # Laser Engraving with Inkscape
 
-For a first post, I will outline a workflow for laser engraving using Inkscape and an Epilog Helix laser cutter.
+For my first post, I will outline a workflow for laser engraving using Inkscape and an Epilog Helix laser system.
  
-My dad bought me an aluminum wallet during a trip to Japan, and shortly after joining Newmakeit I figured I would use the Helix to add a custom engraving to it. These aluminum wallets are fairly popular now- all you need is an anodized piece to do some laser engraving.]
+My dad bought me an aluminum wallet during a trip to Japan, and shortly after joining [Newmakeit](http://www.newmakeit.com) I figured I would use the Helix to add a custom engraving to it. These aluminum wallets are fairly popular now- all you need is an anodized piece to do some laser engraving.]
 
 I love the birds motif Sigur Ros uses in some of their [artwork](https://s-media-cache-ak0.pinimg.com/originals/62/b5/76/62b57607d1e6bd04354403149f46df0e.jpg), so I set out to engrave a flock of birds and my name on the wallet.
  
@@ -19,7 +19,7 @@ I grabbed some free clipart from the web:
 It's rather low-res, but that will work out since I am looking for a minimalistic, simplest-shapes feel.
  
 ### Signature source
-I captured my name on the Surface and saved a PNG of it.
+I captured my handwritten name with my Surface and saved a PNG of it.
  
 ## Inkscape
 I start a new document and set the document properties to 24" x 18" in Landscape mode.
@@ -47,8 +47,8 @@ I follow the same steps above to bring in and trace the signature.
 
 ![Full engraving](/assets/img/01/06_Engraving.PNG)
 
- 
-All that is left is to hide the _Usable_ area" and _Artwork_ layers before saving the file as a PDF. I open the file in Adobe Reader and do a quick check on the shapes and outlines, mostly making sure the "construction" layers are not visible.
+
+All that is left is to hide the _Usable area_ and _Artwork_ layers before saving the file as a PDF. I open the file in Adobe Reader and do a quick check on the shapes and outlines, mostly making sure the "construction" layers are not visible.
 
 ![PDF QC](/assets/img/01/07_PDF.PNG)
 
