@@ -5,11 +5,11 @@ layout: default
 
 # Laser Engraving with Inkscape
 
-For my first post, I will outline a workflow for laser engraving using Inkscape and an Epilog Helix laser system.
+For my first post, I will outline a workflow for laser engraving using [Inkscape](https://inkscape.org) with an [Epilog Helix](https://www.epiloglaser.ca/products/legend-laser-series.htm) laser system in mind.
  
-My dad bought me an aluminum wallet during a trip to Japan, and shortly after joining [Newmakeit](http://www.newmakeit.com) I figured I would use the Helix to add a custom engraving to it. These aluminum wallets are fairly popular now- all you need is an anodized piece to do some laser engraving.]
+I have an [aluminum wallet](https://www.ogondesigns.com/en/) I love (thanks dad!), and shortly after joining [Newmakeit](http://www.newmakeit.com) I figured I would use the Helix to add a custom engraving to it. If you have an aluminum piece that is either anodized or powder-cated, it's ready for engraving (I may be oversimplifying things a bit).
 
-I love the birds motif Sigur Ros uses in some of their [artwork](https://s-media-cache-ak0.pinimg.com/originals/62/b5/76/62b57607d1e6bd04354403149f46df0e.jpg), so I set out to engrave a flock of birds and my name on the wallet.
+I'm a Sigur Rós fan and really like the birds motif they use in some of their [artwork](https://s-media-cache-ak0.pinimg.com/originals/62/b5/76/62b57607d1e6bd04354403149f46df0e.jpg), so I set out to engrave a flock of birds and my name on the wallet.
  
 ### Bitmap source
 I grabbed some free clipart from the web:
@@ -18,15 +18,15 @@ I grabbed some free clipart from the web:
 
 It's rather low-res, but that will work out since I am looking for a minimalistic, simplest-shapes feel.
  
-### Signature source
+### Name source
 I captured my handwritten name with my Surface and saved a PNG of it.
  
 ## Inkscape
-I start a new document and set the document properties to 24" x 18" in Landscape mode.
+I start a new document and set the document properties to 24" x 18" in Landscape mode to match the laser platform.
  
 ![Document Properties](/assets/img/01/01_DocProps.PNG)
 
-Then I need to set my usable area. My wallet measures 108mm x 73mm, so I create a layer called _Usable area_ and draw a rectangle at the top right corner with those dimensions. I also add a "keep out" area to represent the wallet logo in the corner.
+Then I need to set the usable area. My wallet measures 108mm x 73mm, so I create a layer called _Usable area_ and draw a rectangle at the top right corner with those dimensions. I also add a "keep out" area that represents the wallet logo in the corner.
 
 ![Usable area](/assets/img/01/02_Usable area.PNG)
  
@@ -40,10 +40,10 @@ I select _Path->Trace Bitmap_, and use Brightness cutoff in the single scan sect
 
 I can now move this trace to an _Engraving_ layer.
 
-![Signature](/assets/img/01/05_Trace.PNG)
+![Name](/assets/img/01/05_Trace.PNG)
 
  
-I follow the same steps above to bring in and trace the signature.
+I follow the same steps above to bring in and trace the handwritten name.
 
 ![Full engraving](/assets/img/01/06_Engraving.PNG)
 
@@ -57,4 +57,8 @@ Send it to the Helix using the recommended manufacturer settings, and five minut
 ![Final product](/assets/img/01/08_Final.jpg)
  
 The cloudiness is from extended use (less than stellar anodizing I guess).
+
+Questions? Comments? [Give me a shout!](/about)
+
+[Home](/)
 
