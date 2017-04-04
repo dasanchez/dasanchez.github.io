@@ -3,7 +3,7 @@ layout: default
 ---
 [Home](/)
 
-# 3D Printing (and Finishing!) a Baseball Case
+# 3D Printing a Baseball Case
 
 How about we build a slick Blue Jays-branded baseball case?
 
