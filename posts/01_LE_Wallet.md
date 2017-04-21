@@ -3,7 +3,7 @@ layout: default
 ---
 [Home](/)
 
-# Laser Engraving with Inkscape
+# Laser Engraving a Wallet
 
 For my first post, I will outline a workflow for laser engraving using [Inkscape](https://inkscape.org) with an [Epilog Helix](https://www.epiloglaser.ca/products/legend-laser-series.htm) laser system in mind.
  
