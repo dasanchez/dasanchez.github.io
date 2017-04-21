@@ -52,13 +52,13 @@ This specifies the output file as _hello_. Running it with `./hello` will print 
 The Beaglebone uses the arm-linuxgnueabi*hf*- compiler. The *hf* here stands for Hard Float, meaning the CPU is able to handle floating point operations instead of having to do it in software.  
 To install the compiler in Mint:
 ```
-sudo apt-get install linux-armgnueabihf-g++
+$ sudo apt-get install linux-armgnueabihf-g++
 ```
 Let's test it using the same hello world program from before:
 
 ```
-arm-linuxhnueabihf-g++ hello.cpp -o HelloARM
-./helloARM
+$ arm-linuxhnueabihf-g++ hello.cpp -o HelloARM
+$ ./helloARM
 ```
 
 At this point I get an error message because the x86-architecture processor cannot run this binary (built for a different architecture). I copy it to the Beaglebone and try again:
@@ -72,13 +72,11 @@ Now that I am greeted with a *Hello World!*, I know I can use this compiler for 
 
 ![Hello ARM](/assets/img/04/01_hello.png)
 
-
 ## 3. Configure and build an ARM-friendly version of Qt
 As of right now, the latest release of Qt is 5.5. I gave up trying to compile that for an arm device, and the newest version I have working is 4.8.6.
 I download the source package from here:
 
 [Qt Download Archive > Qt Everywhere 4.8.6](https://download.qt.io/archive/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz)
-
 
 I uncompress the package and modify the following *qmake.conf* files to make sure they list the *arm-linuxgnueabihf-* prefix across the board. I am not entirely sure all three are necessary, but they work with the `configure` command I will use shortly.
 
