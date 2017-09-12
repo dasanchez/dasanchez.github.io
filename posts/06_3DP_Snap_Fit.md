@@ -40,7 +40,11 @@ The second model is only a bit wider, and the spacing for the rack sheet metal g
 ![MKII Model](/assets/img/06/05_MODEL_MKII.PNG)
 ![MKII Model](/assets/img/06/06_FRONT_MKII.PNG)
 
-[This is what the piece looks like on the tool rack](http://i.imgur.com/T2rJJUL.gifv). It's a much better fit now.
+This is what the piece looks like on the tool rack:
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="T2rJJUL"><a href="//imgur.com/T2rJJUL"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+
+It's a much better fit now.
 
 ## Lessons learned
 
