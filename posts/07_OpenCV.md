@@ -3,7 +3,7 @@ layout: default
 ---
 [Home](/)
 
-# Set up a Python development environment for computer vision in Windows
+# Set up Python for computer vision in Windows
 
 I am teaching myself computer vision and Python at the same time. These are the packages I have installed to get going:
 

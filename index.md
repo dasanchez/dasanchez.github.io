@@ -2,7 +2,7 @@
 layout: default
 ---
 
-7. [Set up a Python development environment for computer vision](/posts/07_OpenCV).
+7. [Set up Python for computer vision](/posts/07_OpenCV).
 6. [3D Print a Snap Fit Piece](/posts/06_3DP_Snap_Fit).
 5. [Build a Laser Cut Belt Holder](/posts/05_LC_Belt_Holder).
 4. [Cross-compiling Qt Applications for ARM devices](/posts/04_Qt_ARM).
