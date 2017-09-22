@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm Dante Sanchez, a Mechanical Engineer in Toronto.  
+I'm Dante Sanchez, a T-Shaped engineer in Toronto.  
 I am using this site as a knowledge base/record of all the things I <s>work on</s> have fun with outside of my 9-to-5 activities. 
 
 <a href="mailto:dante.a.sanchez@gmail.com"><i class="fa fa-envelope"></i></a>
