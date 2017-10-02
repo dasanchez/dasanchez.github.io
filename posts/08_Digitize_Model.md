@@ -42,7 +42,7 @@ I activate a trial version of PhotoScan professional, and follow these steps:
 
 #### 1. Add images (every single one of them)
 
-#### 2. Align points
+#### 2. Align images
 
 ![Cameras aligned](/assets/img/08/02_CAMS.PNG)
 
