@@ -2,6 +2,7 @@
 layout: default
 ---
 
+8. [Digitize a Physical Model](/posts/08_Digitize_Model).
 7. [Set up Python for computer vision](/posts/07_OpenCV).
 6. [3D Print a Snap Fit Piece](/posts/06_3DP_Snap_Fit).
 5. [Build a Laser Cut Belt Holder](/posts/05_LC_Belt_Holder).
