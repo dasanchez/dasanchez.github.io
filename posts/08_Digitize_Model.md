@@ -68,7 +68,7 @@ I can now export an OBJ file that I can bring into Fusion 360...
 
 ...but not before converting the mesh into a **quad** mesh instead of a triangle one.
 
-Enter [Instant Meshes](https://github.com/wjakob/instant-meshes). This program allows to to convert your triangle mesh (say, a STL file from [Thingiverse](https://www.thingiverse.com/)) into a quad mesh that Fusion 360 will be happier with.
+Enter [Instant Meshes](https://github.com/wjakob/instant-meshes). This program allows you to convert your triangle mesh (say, a STL file from [Thingiverse](https://www.thingiverse.com/)) into a quad mesh that Fusion 360 will be happier with.
 
 ![Quad Meshes](/assets/img/08/06_INSTANT_MESHES.PNG)
 
