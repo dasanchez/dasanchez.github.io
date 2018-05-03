@@ -94,7 +94,7 @@ Success!
 
 ### Lessons learned
 
-1. That <$200 piece of software you keep frowning your nose at is actually quite powerful!
+1. That <$200 piece of software you keep turning your nose up at is actually quite powerful!
 2. Be mindful to produce good quality source material when you know you have a long workflow or process ahead of you. I had to make three clay models to get to the point where I wouldn't have to spend weeks finessing the resulting 3D model.
 3. Clay shrinks...a lot! Don't wait too long to capture your geometry or you'll see some warping.
 
