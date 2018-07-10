@@ -2,6 +2,14 @@
 layout: default
 ---
 
+## Things I consume
+I am currently reading:  
+[The Information: A History, A Theory, A Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood) by James Gleick.
+
+And [before that...](/books)
+
+## Things I make
+
 8. [Digitize a Physical Model](/posts/08_Digitize_Model).
 7. [Set up Python for computer vision](/posts/07_OpenCV).
 6. [3D Print a Snap Fit Piece](/posts/06_3DP_Snap_Fit).
