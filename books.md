@@ -4,6 +4,9 @@ layout: default
 
 ## I have read:
 
+[The Information: A History, A Theory, A Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood)  
+James Gleick.
+
 [The Handmaid's Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale)  
 Margaret Atwood
 

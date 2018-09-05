@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[The Information: A History, A Theory, A Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood) by James Gleick.
+[Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom) by Cory Doctorow.
 
 And [before that...](/books)
 
