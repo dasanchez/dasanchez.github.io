@@ -4,6 +4,9 @@ layout: default
 
 ## I have read:
 
+[Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom)  
+Cory Doctorow
+
 [Autonomous](https://www.goodreads.com/book/show/28209634-autonomous)  
 Annalee Newitz
 
@@ -14,7 +17,16 @@ James Gleick
 Margaret Atwood
 
 [Walkaway](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel))  
-Corey Doctorow
+Cory Doctorow
+
+[Look to Windward](https://en.wikipedia.org/wiki/Look_to_Windward)  
+Iain M. Banks
+
+[Freedom™](https://en.wikipedia.org/wiki/Freedom%E2%84%A2)  
+Daniel Suarez
+
+[Daemon](https://en.wikipedia.org/wiki/Daemon_(novel_series))  
+Daniel Suarez
 
 
 [Home](/)

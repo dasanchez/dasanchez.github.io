@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom) by Cory Doctorow.
+[Makers](https://en.wikipedia.org/wiki/Makers_(novel)) by Cory Doctorow.
 
 And [before that...](/books)
 
