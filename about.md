@@ -9,6 +9,6 @@ I am using this site as a knowledge base/record of all the things I <s>work on</
 <a href="http://linkedin.com/in/dante-sanchez-65465717"><i class="fa fa-linkedin"></i></a>
 <a href="http://github.com/dasanchez"><i class="fa fa-github"></i></a>
 <a href="http://twitter.com/dasanc_"><i class="fa fa-twitter"></i></a>
-<a href="https://www.instagram.com/toad_dna_ramen"><i class="fa fa-instagram"></i></a>
+<a href="https://www.instagram.com/dada_ornament"><i class="fa fa-instagram"></i></a>
 
 [Home](/)
