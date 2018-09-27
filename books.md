@@ -4,6 +4,9 @@ layout: default
 
 ## I have read:
 
+[Dark Matter (Audiobook)](http://blakecrouch.com/dark-matter.php)  
+Blake Crouch
+
 [Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom)  
 Cory Doctorow
 
