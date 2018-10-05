@@ -4,6 +4,9 @@ layout: default
 
 ## I have read:
 
+[Norse Mythology (Audiobook)](https://en.wikipedia.org/wiki/Norse_Mythology_(Neil_Gaiman))  
+Neil Gaiman
+
 [Dark Matter (Audiobook)](http://blakecrouch.com/dark-matter.php)  
 Blake Crouch
 
