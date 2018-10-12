@@ -2,7 +2,10 @@
 layout: default
 ---
 
-## I have read:
+## I have read (or listened to):
+
+[World War Z (Audiobook)](https://en.wikipedia.org/wiki/World_War_Z)  
+Max Brooks
 
 [Norse Mythology (Audiobook)](https://en.wikipedia.org/wiki/Norse_Mythology_(Neil_Gaiman))  
 Neil Gaiman
