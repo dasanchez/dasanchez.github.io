@@ -2,14 +2,19 @@ language: ruby
 rvm:
   - 2.5.0
 
-# before_install:
-#  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+sudo: false
+
+env:
+  global:
+  - NOKOGIRI_USE_SYSTEM_LIBRARIES=true # speeds up installation of html-proofer
 #  - sudo apt-get install libcurl3-dev
 
-# before_script: bundle exec jekyll build
-script: bundle exec jekyll build
+before_script:
+ - chmod +x ./script/cibuild
 
-#script: travis_retry bundle exec htmlproofer --url-ignore "/www.tomesh.net/,/tomesh.net/" ./_site
+script: ./script/cibuild
 
-# notifications:
-# email: false
+cache: bundler
+
+notifications:
+email: false
