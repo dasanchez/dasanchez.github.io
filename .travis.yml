@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - 2.5.0
+
+# before_install:
+#  - export NOKOGIRI_USE_SYSTEM_LIBRARIES=true
+#  - sudo apt-get install libcurl3-dev
+
+before_script: bundle exec jekyll build
+
+#script: travis_retry bundle exec htmlproofer --url-ignore "/www.tomesh.net/,/tomesh.net/" ./_site
+
+# notifications:
+# email: false
