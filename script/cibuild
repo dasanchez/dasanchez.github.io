@@ -5,3 +5,5 @@ set -e
 bundle exec jekyll build
 gem build jekyll-theme-minimal.gemspec
 timeout 5s bundle exec htmlproofer ./_site --http-status-ignore 999 --assume-extension
+
+exit 0
