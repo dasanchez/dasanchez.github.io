@@ -20,7 +20,7 @@ Its only relevant features are:
 
 This results in a nice comfortable fit for my hand.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/Zogep"><a href="//imgur.com/Zogep"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/Zogep"><a href="https://imgur.com/a/Zogep#dM4q6LV"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## Capture
 
@@ -88,7 +88,7 @@ I hollow out the model and send an STL to 3DHubs for printing. The next day I pi
 
 ![Print](/assets/img/08/09_PRINT_SMALL.PNG)
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/1Yhnm"><a href="//imgur.com/1Yhnm"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/1Yhnm"><a href="https://imgur.com/a/1Yhnm#h1eh3L7"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 Success!
 
