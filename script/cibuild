@@ -5,5 +5,3 @@ set -e
 bundle exec jekyll build
 gem build jekyll-theme-minimal.gemspec
 bundle exec htmlproofer ./_site --only-4xx --assume-extension
-
-exit 0
