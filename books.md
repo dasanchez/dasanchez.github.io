@@ -4,45 +4,33 @@ layout: default
 
 ## I have read (or listened to):
 
-[Makers](https://en.wikipedia.org/wiki/Makers_(novel))  
--Cory Doctorow-   
-I _also_ just want to build things all day :D
+[Makers](https://en.wikipedia.org/wiki/Makers_(novel)) - Cory Doctorow   
+_I also just want to build things all day._
 
-[World War Z (Audiobook)](https://en.wikipedia.org/wiki/World_War_Z)  
--Max Brooks-  
-I think I liked the movie better.
+[World War Z (Audiobook)](https://en.wikipedia.org/wiki/World_War_Z) - Max Brooks  
+_I think I liked the movie better._
 
-[Norse Mythology (Audiobook)](https://en.wikipedia.org/wiki/Norse_Mythology_(Neil_Gaiman))  
--Neil Gaiman-  
+[Norse Mythology (Audiobook)](https://en.wikipedia.org/wiki/Norse_Mythology_(Neil_Gaiman)) - Neil Gaiman  
 
-[Dark Matter (Audiobook)](http://blakecrouch.com/dark-matter.php)  
--Blake Crouch-  
-For a book about multiversal incursion shenaningans, the plot is actually quite straightforward.
+[Dark Matter (Audiobook)](http://blakecrouch.com/dark-matter.php) - Blake Crouch  
+_For a book about multiversal incursion shenaningans, the plot is actually quite straightforward._
 
-[Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom)  
--Cory Doctorow-  
+[Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom) - Cory Doctorow  
 
-[Autonomous](https://www.goodreads.com/book/show/28209634-autonomous)  
--Annalee Newitz-
+[Autonomous](https://www.goodreads.com/book/show/28209634-autonomous) - Annalee Newitz
 
-[The Information: A History, A Theory, A Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood)  
--James Gleick-
+[The Information: A History, A Theory, A Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood) - James Gleick
 
-[The Handmaid's Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale)  
--Margaret Atwood-
+[The Handmaid's Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale) - Margaret Atwood
 
-[Walkaway](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel))  
--Cory Doctorow-  
-Sooo where do I sign up for my solarpunk membership?
+[Walkaway](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel)) - Cory Doctorow  
+_Sooo where do I sign up for my solarpunk membership?_
 
-[Look to Windward](https://en.wikipedia.org/wiki/Look_to_Windward)  
--Iain M. Banks-
+[Look to Windward](https://en.wikipedia.org/wiki/Look_to_Windward) - Iain M. Banks
 
-[Freedom™](https://en.wikipedia.org/wiki/Freedom%E2%84%A2)  
--Daniel Suarez-
+[Freedom™](https://en.wikipedia.org/wiki/Freedom%E2%84%A2) - Daniel Suarez
 
-[Daemon](https://en.wikipedia.org/wiki/Daemon_(novel_series))  
--Daniel Suarez-
+[Daemon](https://en.wikipedia.org/wiki/Daemon_(novel_series)) - Daniel Suarez
 
 
 [Home](/)
