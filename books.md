@@ -4,38 +4,45 @@ layout: default
 
 ## I have read (or listened to):
 
+[Makers](https://en.wikipedia.org/wiki/Makers_(novel))  
+-Cory Doctorow-   
+I _also_ just want to build things all day :D
+
 [World War Z (Audiobook)](https://en.wikipedia.org/wiki/World_War_Z)  
-Max Brooks
+-Max Brooks-  
+I think I liked the movie better.
 
 [Norse Mythology (Audiobook)](https://en.wikipedia.org/wiki/Norse_Mythology_(Neil_Gaiman))  
-Neil Gaiman
+-Neil Gaiman-  
 
 [Dark Matter (Audiobook)](http://blakecrouch.com/dark-matter.php)  
-Blake Crouch
+-Blake Crouch-  
+For a book about multiversal incursion shenaningans, the plot is actually quite straightforward.
 
 [Down and Out in the Magic Kingdom](https://en.wikipedia.org/wiki/Down_and_Out_in_the_Magic_Kingdom)  
-Cory Doctorow
+-Cory Doctorow-  
 
 [Autonomous](https://www.goodreads.com/book/show/28209634-autonomous)  
-Annalee Newitz
+-Annalee Newitz-
 
 [The Information: A History, A Theory, A Flood](https://en.wikipedia.org/wiki/The_Information:_A_History,_a_Theory,_a_Flood)  
-James Gleick
+-James Gleick-
 
 [The Handmaid's Tale](https://en.wikipedia.org/wiki/The_Handmaid%27s_Tale)  
-Margaret Atwood
+-Margaret Atwood-
 
 [Walkaway](https://en.wikipedia.org/wiki/Walkaway_(Doctorow_novel))  
-Cory Doctorow
+-Cory Doctorow-  
+Sooo where do I sign up for my solarpunk membership?
 
 [Look to Windward](https://en.wikipedia.org/wiki/Look_to_Windward)  
-Iain M. Banks
+-Iain M. Banks-
 
 [Freedom™](https://en.wikipedia.org/wiki/Freedom%E2%84%A2)  
-Daniel Suarez
+-Daniel Suarez-
 
 [Daemon](https://en.wikipedia.org/wiki/Daemon_(novel_series))  
-Daniel Suarez
+-Daniel Suarez-
 
 
 [Home](/)

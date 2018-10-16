@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Makers](https://en.wikipedia.org/wiki/Makers_(novel)) by Cory Doctorow.
+[An Astronaut's Guide to Life on Earth](https://chrishadfield.ca/books/) by Chris Hadfield.
 
 And [before that...](/books)
 
