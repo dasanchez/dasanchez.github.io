@@ -6,11 +6,11 @@ layout: default
 # Digitize a Physical Model
 #### (Adventures in Photogrammetry)
 
-As part of my [LazyMouse](https://github.com/dasanchez/lazy-mouse) project, I am looking for an easy way to capture complex (read: organic) real-life geometry so I can work with it in CAD.
+I am looking for an easy way to capture complex (read: organic) real-life geometry so I can work with it in CAD.
 
 ## Source
 
-I have a model (my third attempt at this point) that I formed using some [DAS modeling clay](http://canada.michaels.com/on/demandware.store/Sites-MichaelsCanada-Site/en_CA/Product-Show?pid=M10130210&cgid=845166492).  
+I have a physical model for an experimental computer mouse that I formed using [DAS modeling clay](http://canada.michaels.com/on/demandware.store/Sites-MichaelsCanada-Site/en_CA/Product-Show?pid=M10130210&cgid=845166492).  
 Its only relevant features are:
 - A concave surface for each digit.
 - A thumb resting area where the touch pad will go.
