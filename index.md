@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[An Astronaut's Guide to Life on Earth](https://chrishadfield.ca/books/) by Chris Hadfield.
+[A House in the Sky](https://en.wikipedia.org/wiki/A_House_in_the_Sky) by Amanda Lindhout & Sara Corbett.
 
 And [before that...](/books)
 
