@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[A House in the Sky](https://en.wikipedia.org/wiki/A_House_in_the_Sky) by Amanda Lindhout & Sara Corbett.
+[Diry Wars: The World is a Battlefield](https://www.hachettebookgroup.com/titles/jeremy-scahill/dirty-wars/9781568587271/) by Jeremy Scahill.
 
 And [before that...](/books)
 
