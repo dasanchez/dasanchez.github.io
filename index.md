@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Diry Wars: The World is a Battlefield](https://www.hachettebookgroup.com/titles/jeremy-scahill/dirty-wars/9781568587271/) by Jeremy Scahill.
+[Ancillary Justice](https://en.wikipedia.org/wiki/Ancillary_Justice) by Ann Leckie.
 
 And [before that...](/books)
 
