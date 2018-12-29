@@ -6,6 +6,12 @@ layout: default
 
 ## I have read (or listened to):
 
+[Ancillary Justice](https://en.wikipedia.org/wiki/Ancillary_Justice) - Ann Leckie
+
+_If you're going to do something that crazy, save it for when it'll make a difference._
+
+A rogue centuries-old AI on a quest for justice and a wee bit of revenge.
+
 [Diry Wars: The World is a Battlefield](https://www.hachettebookgroup.com/titles/jeremy-scahill/dirty-wars/9781568587271/) - Jeremy Scahill
 
 _On September 14, 2001, the House and Senate gave president Bush unprecedented latitude to wage a global war, passing the Authorization for Use of Military Force (AUMF). It passed the House with only on opposing vote and the Senate with no dissent. The lone "Nay" vote against the AUMF came from liberal California Democrat Barbara Lee. "However difficult this vote may be, some of us must urge the use of restraint," Lee declared, voice trembling, as she spoke on the floor of the House that day. "There must be some of us who say, let's step back for a moment and think through the implications of our actions today - let us more fully understand their consequences..."_

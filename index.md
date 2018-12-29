@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Ancillary Justice](https://en.wikipedia.org/wiki/Ancillary_Justice) by Ann Leckie.
+[The Man in the High Castle](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle) by Philip K. Dick.
 
 And [before that...](/books)
 
