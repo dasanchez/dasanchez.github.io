@@ -1,16 +1,15 @@
 @import "fonts";
-@import "rouge-github";
+// @import "rouge-github";
 
 body {
-  background-color: #fff;
+  background-color: #111;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#727272;
+  font: 14px/1.5 "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #ddd;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
   margin:0 0 20px;
 }
 
@@ -26,16 +25,8 @@ h1 {
   font-size:28px;
 }
 
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
-
 a {
-  color:#39c;
+  color:rgb(102, 204, 255);
   text-decoration:none;
 }
 
@@ -64,12 +55,14 @@ blockquote {
   margin:0;
   padding:0 0 0 20px;
   font-style:italic;
+  background-color: #0000ff;
 }
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
   font-size:12px;
+  color: #eee;
 }
 
 pre {
@@ -78,6 +71,7 @@ pre {
   border-radius:5px;
   border:1px solid #e5e5e5;
   overflow-x: auto;
+  background-color: #222;
 }
 
 table {
@@ -155,7 +149,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#fff;
   font-weight:700;
 }
 
@@ -177,7 +171,10 @@ section {
 }
 
 small {
-  font-size:11px;
+  font-size:12px;
+  background-color: #000;
+  font-weight: 600;
+  padding: 2px;
 }
 
 hr {
