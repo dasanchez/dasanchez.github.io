@@ -3,4 +3,4 @@ description: Arts, crafts, and code
 #show_downloads: true
 google_analytics:
 theme: 
-highlighter: none
+highlighter: rouge
