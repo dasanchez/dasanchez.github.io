@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[The Man in the High Castle](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle) by Philip K. Dick.
+[Kindred](https://en.wikipedia.org/wiki/Kindred_(novel)) by Octavia Butler.
 
 And [before that...](/books)
 
