@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Kindred](https://en.wikipedia.org/wiki/Kindred_(novel)) by Octavia Butler.
+[How Not to Be Wrong: The Power of Mathematical Thinking](https://en.wikipedia.org/wiki/How_Not_to_Be_Wrong) by Jordan Ellenberg.
 
 And [before that...](/books)
 

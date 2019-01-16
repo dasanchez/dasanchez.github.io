@@ -6,6 +6,15 @@ layout: default
 
 ## I have read (or listened to):
 
+### [Kindred](https://en.wikipedia.org/wiki/Kindred_(novel)) - Octavia Butler.
+
+_Do you honestly believe you traveled back over a century in time and crossed three thousand miles of space to see your dead ancestors?_
+
+Every time I watch [Outlander](https://en.wikipedia.org/wiki/Outlander_(TV_series)) I think to myself "boy am I glad I don't have to travel in time to the past" due in part to my brownness, and because more than a couple of centuries in, the whole affair seems rather unhealthy.  
+Not only does Dana, a black woman, suffer from sudden time travel disorder, she also lands in the same slave plantation every single time. It was a thrilling read all the way through. I'm impressed it hasn't been made into a movie or TV show at this point.
+
+---
+
 ### [The Man in the High Castle](https://en.wikipedia.org/wiki/The_Man_in_the_High_Castle) - Philip K. Dick
 
 _A psychotic world we live in. The madmen are in power. How long have we known this? Faced this? And--how many of us do know it? Perhaps if you know you are insane then you are not insane. Or you are becoming sane, finally. Waking up. I suppose only a few are aware of all this. Isolated persons here and there. But the broad masses...what do they think? All these hundreds of thousands in this city, here. Do they imagine that they live in a sane world? Or do they guess, glimpse, the truth...?_
