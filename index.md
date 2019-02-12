@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[How Not to Be Wrong: The Power of Mathematical Thinking](https://en.wikipedia.org/wiki/How_Not_to_Be_Wrong) by Jordan Ellenberg.
+[After On](https://www.penguinrandomhouse.com/books/563853/after-on-by-rob-reid/9781524798079/) by Rob Reid.
 
 And [before that...](/books)
 
