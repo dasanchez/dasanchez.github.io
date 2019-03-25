@@ -2,3 +2,23 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+body {
+    font-size: 1rem;
+}
+
+h1, h2, h3 {
+    color: #ccc;
+}
+
+strong {
+    color: #749eb4;
+}
+
+p {
+    color: #ddd;
+}
+
+code {
+    font-size: 0.8rem;
+}

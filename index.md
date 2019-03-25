@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[After On](https://www.penguinrandomhouse.com/books/563853/after-on-by-rob-reid/9781524798079/) by Rob Reid.
+[The Fold](https://www.goodreads.com/book/show/23164927-the-fold) by Peter Clines.
 
 And [before that...](/books)
 
