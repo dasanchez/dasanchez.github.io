@@ -21,7 +21,7 @@ I install the 2.7 version for OpenCV and make sure to not add python.exe to the 
 ## OpenCV
 
 OpenCV (Open Source Computer Vision Library) is a software library that provides a common infrastructure for computer vision applications.
-I head over to [opencv.org](http://www.opencv.org) and get the latest release for Windows. 
+I head over to [opencv.org](https://www.opencv.org) and get the latest release for Windows. 
 
 The release package includes built binaries and source files. For my purposes, I only need one file, `opencv/build/python/2.7/x64/cv2.pyd`.
 
