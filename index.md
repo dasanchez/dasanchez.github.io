@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Inventing the Future: Postcapitalism and a World Without Work](https://en.wikipedia.org/wiki/Inventing_the_Future:_Postcapitalism_and_a_World_Without_Work) by Nick Srnicek and Alex Williams.
+[Radicalized](https://craphound.com/radicalized-full/) by Cory Doctorow.
 
 And [before that...](/books)
 
