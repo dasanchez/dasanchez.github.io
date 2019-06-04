@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Radicalized](https://craphound.com/radicalized-full/) by Cory Doctorow.
+[Parable of the Sower](https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel)) by Octavia E. Butler.
 
 And [before that...](/books)
 
