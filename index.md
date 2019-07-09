@@ -4,7 +4,7 @@ layout: default
 
 ## Things I consume
 I am currently reading:  
-[Parable of the Sower](https://en.wikipedia.org/wiki/Parable_of_the_Sower_(novel)) by Octavia E. Butler.
+[Thieves of Bay Street](http://thievesofbaystreet.ca/) by Bruce Livesey.
 
 And [before that...](/books)
 
