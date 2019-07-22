@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-[Home](/)
 
 # Build a Laser Cut Belt Holder
 
@@ -81,12 +80,9 @@ Once the varnish dries off, I hang the holder on the closet rod and fit my belts
 
 Success!
 
-
 ## Lessons learned
 
 The glueing and finishing took a lot longer than I would have liked. Next time around I will make sure the geometry is as simple I can make it. In this case, the main body could have been replaced by a series of rods instead of full panels. This would have greatly decreased the amount of wasted unused MDF.
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
 

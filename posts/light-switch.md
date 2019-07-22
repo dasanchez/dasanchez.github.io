@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-[Home](/)
 
-# 3D Printing a Light Switch
+# 3D Print a Light Switch
 
 The house I live in is old. It has many old things in it. One of them was a light switch/dimmer knob in the master bedroom that allowed you to:
 1. Turn the light on and off by pushing it.
@@ -63,6 +62,3 @@ When I got to Newmakeit for round 2, someone suggested glow-in-the-dark filament
 3. Just because you can add complex geometry for free when 3D printing, it doesn't mean you should.
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
-

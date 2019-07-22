@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-[Home](/)
 
 # 3D Print a Snap-Fit Piece
 
@@ -51,10 +50,3 @@ It's a much better fit now.
 You can easily make snap-fit pieces using hobby-grade 3D printers. You just have to experiment :)
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
-
-
-
-
-

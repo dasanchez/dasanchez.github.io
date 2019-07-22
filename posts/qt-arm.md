@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-[Home](/)
 
-# Cross-compiling Qt Applications for ARM Devices
+# Cross-compile Qt Applications for ARM Devices
 
 I have had to compile programs on a desktop machine so that they run on ARM devices- [Gumstix](https://www.gumstix.com/) for work a few years ago, and most recently a [Beaglebone](http://beagleboard.org/bone) for a home project.
 I find setting up a build environment frustrating every single time, so I am recording this as an outline for next time I have to do it.
@@ -167,6 +166,3 @@ I go back to the shell and copy the resulting binary to the Beaglebone:
 Success! I can now access tons of extra functionality provided by Qt on the Beaglebone.
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
-

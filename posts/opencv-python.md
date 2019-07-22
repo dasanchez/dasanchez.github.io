@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-[Home](/)
 
 # Set up Python for computer vision in Windows
 
@@ -108,7 +107,3 @@ I add the video filename to the `args` array in the `launch.json` file, and now 
 I am currently porting all...a lot of the samples and exercises in [O'Reilly's Learning OpenCV](http://shop.oreilly.com/product/9780596516130.do) from C/C++ to Python. Check out [this Github repo](https://github.com/dasanchez/opencv_study) for lots of simple OpenCV examples.
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
-
-		

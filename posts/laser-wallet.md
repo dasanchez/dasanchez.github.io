@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-[Home](/)
 
-# Laser Engraving a Wallet
+# Laser Engrave a Wallet
 
 For my first post, I will outline a workflow for laser engraving using [Inkscape](https://inkscape.org) with an [Epilog Helix](https://www.epiloglaser.ca/products/legend-laser-series.htm) laser system in mind.
  
@@ -59,6 +58,3 @@ Send it to the Helix using the recommended manufacturer settings, and five minut
 The cloudiness is from extended use (less than stellar anodizing I guess).
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
-
