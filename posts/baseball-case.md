@@ -1,9 +1,8 @@
 ---
 layout: default
 ---
-[Home](/)
 
-# 3D Printing a Baseball Case
+# 3D Print a Baseball Case
 
 How about we build a slick Blue Jays-branded baseball case?
 
@@ -85,6 +84,3 @@ LET'S GO BLUE JAYS!
 2. Don't forget to double check your geometry before sending files to the 3D printer. The printer might be great, but it can't do miracles.
 
 Questions? Comments? [Give me a shout!](/about)
-
-[Home](/)
-

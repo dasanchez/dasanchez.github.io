@@ -1,25 +1,96 @@
 ---
 ---
 
-@import "jekyll-theme-minimal";
+// @import "jekyll-theme-minimal";
+@import "jekyll-theme-dasanchez";
 
-body {
+.contact-options {
+    display: flex;
+    width: 25%;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-options a {
+    margin: 1rem 1rem;
+    width: 100%;
+}
+
+.menu-entry {
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+.menu-entry a {
+    text-decoration: none;
+}
+
+.banner {
+    box-sizing: border-box;
+    width: 20rem;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .voldemot  {
+    border: 2px solid black;
+    color: #fff;
+    letter-spacing: 0.6rem;
+    background-color: rgb(102, 0, 161);
+    }
+  
+  .orbitals {
+    border: 2px solid #fff;
+    color: #fff;
+    letter-spacing: 0.6rem;
+    background-image: linear-gradient(to right, orange 5%, black 15%, black 85%, #40acff 95%);
+  }
+
+  .banner a {
+      text-decoration: none;
+  }
+
+  .banner a:hover {
+    color: #fff;
+}
+
+@media print, screen and (max-width: 960px) {
+
+.title-block {
+    width: 120px;
+}
+
+.title-block h1 {
+    font-size: 1.2rem;
+    margin-left: 5px;
+    margin-bottom: 0px;
+}
+
+navbar {
+    display: flex;
+    width: 100%;
+}
+
+.menu-entry {
     font-size: 1rem;
+    text-align: center;
 }
 
-h1, h2, h3 {
-    color: #ccc;
-    letter-spacing: 1px;
+.contact-options {
+    width: auto;
 }
 
-strong {
-    color: #749eb4;
 }
 
-p {
-    color: #ddd;
-}
+@media print, screen and (max-width: 400px) {
+    .title-block h1 {
+        font-size: 1rem;
+    }
 
-code {
-    font-size: 0.8rem;
+    .menu-entry {
+        font-size: 0.8rem;
+    }
 }

@@ -2,15 +2,19 @@
 layout: default
 ---
 
-I'm Dante Sanchez, a T-shaped engineer in Toronto.  
-I am using this site as a knowledge base/record of all the things I <s>work on</s> enjoy outside of my 9-to-5 activities. 
+# 👨‍💻 About Me
 
-<span style="display: flex;">
-<a href="mailto:dante.a.sanchez@gmail.com" style="width: 50px;"><i class="fa fa-envelope fa-2x"></i></a>
-<a href="https://www.linkedin.com/in/dante-sanchez-65465717" style="width: 50px;"><i class="fa fa-linkedin fa-2x"></i></a>
-<a href="http://github.com/dasanchez" style="width: 50px;"><i class="fa fa-github fa-2x"></i></a>
-<a href="http://twitter.com/dasanc_" style="width: 50px;"><i class="fa fa-twitter fa-2x"></i></a>
-<a href="https://www.instagram.com/dada_ornament" style="width: 50px;"><i class="fa fa-instagram fa-2x"></i></a>
-</span>
+<span style="font-size: 1.2rem">🇨🇦</span>  I call Canada home. 
 
-[Home](/)
+<span style="font-size: 1.2rem">⚙</span>  I work as a Sr. Mechanical Engineer in a mass spectrometry research team at [PerkinElmer](https://www.perkinelmer.com). 
+
+<span style="font-size: 1.2rem">💻</span>  I am the website lead for [Toronto Mesh](https://tomesh.net/), and I deliver [talks](speaking) on our work every now and then.
+
+<span style="font-size: 1.2rem">📖</span>  I am currently reading [Thieves of Bay Street](http://thievesofbaystreet.ca/), by Bruce Livesey.
+
+<div class="contact-options">
+<a href="mailto:dante.a.sanchez@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+<a href="https://www.linkedin.com/in/dante-sanchez-65465717"><i class="fa fa-linkedin fa-2x"></i></a>
+<a href="http://github.com/dasanchez"><i class="fa fa-github fa-2x"></i></a>
+<a href="http://twitter.com/dasanc_"><i class="fa fa-twitter fa-2x"></i></a>
+</div>
