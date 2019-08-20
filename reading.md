@@ -8,6 +8,7 @@ I am only listing the books I believe are worth sharing:
 
 | Title                                                    | Author(s)                      |                                                                                                |
 |----------------------------------------------------------|--------------------------------|:----------------------------------------------------------------------------------------------:|
+| Thieves of Bay Street                                     | Bruce Livesey              |                              [Notes](/posts/thieves-bay-street)                              |
 | Parable of the Sower                                     | Octavia E. Butler              |                              [Notes](/posts/parable-of-the-sower)                              |
 | Radicalized                                              | Cory Doctorow                  |                                  [Notes](/posts/radicalized)                                   |
 | Inventing the Future                                     | Nick Srnicek and Alex Williams |                              [Notes](/posts/inventing-the-future)                              |
