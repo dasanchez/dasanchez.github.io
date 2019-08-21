@@ -63,8 +63,8 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.5)
-      mini_portile2 (~> 2.3.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
     parallel (1.12.1)
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
@@ -94,5 +94,3 @@ DEPENDENCIES
   html-proofer
   jekyll-theme-minimal!
 
-BUNDLED WITH
-   1.16.6
