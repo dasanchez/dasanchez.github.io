@@ -120,7 +120,7 @@ dt {
 }
 
 th {
-  color: #444;
+  color: #fff;
 }
 
 img {
@@ -200,6 +200,26 @@ section {
   padding-left: 4rem;
   padding-top: 2rem;
   float: none;
+}
+
+.speaking img {
+  position: relative;
+  // left: 20%;
+  top: -10vh;
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.speaking table {
+background-color: #000;
+width: 100%;
+}
+
+.speaking p {
+  position: relative;
+  top: -10vh;
 }
 
 small {

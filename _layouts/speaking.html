@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <!--<title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>-->
+  <title>{{ site.title | default: site.github.repository_name }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/font-awesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+  <meta name="viewport" content="width=device-width">
+  <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <div class="title-block">
+        <h1><a href="/">{{site.title | default: site.github.repository_name }}</a></h1>
+        <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
+      </div>
+
+
+      <navbar>
+        <div class="menu-entry"><a href="/about">About</a></div>
+        <div class="menu-entry"><a href="/projects">Projects</a></div>
+        <div class="menu-entry"><a href="/reading">Reading</a></div>
+        <div class="menu-entry"><a href="/speaking">Speaking</a></div>
+      </navbar>
+
+    </header>
+
+    <section class="speaking">
+
+      {{ content }}
+
+      <img src="/assets/img/decentralized.png" alt="Decentralized meetup poster">
+
+      <p>Poster design: Andrew O'Mara</p>
+
+    </section>
+    <footer>
+      {% if site.github.is_project_page %}
+      <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+      {% endif %}
+      <p><small><a href="https://pages.github.com/">Hosted on GitHub Pages</a></small></p>
+    </footer>
+  </div>
+
+  <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+
+  {% if site.google_analytics %}
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date(); a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', '{{ site.google_analytics }}', 'auto');
+    ga('send', 'pageview');
+  </script>
+  {% endif %}
+</body>
+
+</html>
+
+</h4>
