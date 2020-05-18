@@ -8,9 +8,9 @@ layout: default
 
 <span style="font-size: 1.2rem">⚙</span>  I work as a Sr. Mechanical Engineer in a mass spectrometry research team at [PerkinElmer](https://www.perkinelmer.com). 
 
-<span style="font-size: 1.2rem">💻</span>  I am the website lead for [Toronto Mesh](https://tomesh.net/), and I deliver [talks](speaking) on our work every now and then.
+<span style="font-size: 1.2rem">💻</span>  I am interested in community networks and peer-to-peer technologies. I was the event coordinator for [Toronto Mesh](https://tomesh.net/) from 2018 to 2019.
 
-<span style="font-size: 1.2rem">📖</span>  I am currently reading [Red Mars](https://en.wikipedia.org/wiki/Mars_trilogy), by Kim Stanley Robinson.
+<span style="font-size: 1.2rem">📖</span>  I am currently reading [Foundation](https://en.wikipedia.org/wiki/Foundation_%28Asimov_novel%29), by Isaac Asimov.
 
 <div class="contact-options">
 <a href="mailto:dante.a.sanchez@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>

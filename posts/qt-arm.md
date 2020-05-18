@@ -17,8 +17,10 @@ I find setting up a build environment frustrating every single time, so I am rec
 5. Install Qt Creator and test a Qt-based program.
 
 ## 1. Install a Linux host environment
-Most of us non-guru Linux tinkerers use either [Ubuntu](https://www.ubuntu.com/) or [Mint](https://linuxmint.com/). I set up a 32-bit Linux Mint set up in a 30GB [VirtualBox](https://www.virtualbox.org/) virtual machine.  
-On my first boot, I install the VirtualBox Guest Additions. These will make sure the guest OS (Mint) uses all the features provided by VirtualBox.  
+Most of us non-guru Linux tinkerers use either [Ubuntu](https://www.ubuntu.com/) or [Mint](https://linuxmint.com/). I set up a 32-bit Linux Mint set up in a 30GB [VirtualBox](https://www.virtualbox.org/) virtual machine.
+
+On my first boot, I install the VirtualBox Guest Additions. These will make sure the guest OS (Mint) uses all the features provided by VirtualBox.
+
 Then I open a terminal window (*Ctrl+T* is a fast way to get one) and install a base compiler set:
 
 ```
