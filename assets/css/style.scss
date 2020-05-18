@@ -1,96 +1,234 @@
 ---
 ---
 
-// @import "jekyll-theme-minimal";
 @import "jekyll-theme-dasanchez";
 
 .contact-options {
-    display: flex;
-    width: 25%;
-    margin: 0;
-    text-align: center;
+  display: flex;
+  width: 25%;
+  margin: 0;
+  text-align: center;
 }
 
 .contact-options a {
-    margin: 1rem 1rem;
-    width: 100%;
+  margin: 1rem 1rem;
+  width: 100%;
 }
 
 .menu-entry {
-    font-size: 1.2rem;
-    width: 100%;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  width: 100%;
+  line-height: 2.4rem;
 }
 
 .menu-entry a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.banner {
-    box-sizing: border-box;
-    width: 20rem;
-    border-radius: 10px;
-    font-size: 1.6rem;
-    line-height: 3rem;
-    margin-bottom: 1rem;
-    text-align: center;
+// PROJECTS //
+
+div .web-apps-container, div .projects-container {
+  display: flex;
+  width: 100%;
+  margin: 0;
+  flex-flow: row wrap;
+  margin-bottom: 10px;
+}
+
+div .web-apps-item, div .project-item {
+  flex: 48%;
+  box-sizing: border-box;
+  border: 1px solid #000;
+  margin-bottom: 1rem;
+  margin-right: 1%;
+  margin-left: 1%;
+  flex-grow: 0;
+}
+
+div .web-app-name, div .project-name {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3.2rem;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+  text-align: center;
+}
+
+.banner-link {
+  text-decoration: none;
+}
+
+.banner-link:hover {
+  text-decoration: none;
+}
+
+#banner-orbitals {
+  background-image: linear-gradient(to right, orange 5%, black 15%, black 85%, #40acff 95%);
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+#banner-voldemot {
+  background-color: rgb(102, 0, 161);
+  color: white;
+  letter-spacing: 0.2rem;
+}
+
+.web-app-description {
+  padding: 0.6rem;
+}
+
+.project-header {
+  width: 100%;
+  font-weight: 600;
+  border-bottom: 0px;
+}
+
+.web-app-description p {
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.project-description {
+  background-color: #fff;
+  padding: 0.6rem;
+  padding-bottom: 0;
+  // width: 80%;
+}
+
+.project-thumbnail {
+  width: auto;
+  height: 20vw;
+  background-color: black;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: calc(-2vw);
+}
+
+#digitize-thumbnail {
+  background-image: url("/assets/img/thumbs/digitize-model.png");
+}
+
+#opencv-thumbnail {
+  background-image: url("/assets/img/thumbs/opencv-python.png");
+}
+
+#snapfit-thumbnail {
+  background-image: url("/assets/img/thumbs/snap-fit.png");
+}
+
+#belt-thumbnail {
+  background-image: url("/assets/img/thumbs/belt-holder.png");
+}
+
+#qt-arm-thumbnail {
+  background-image: url("/assets/img/thumbs/qt-arm.png");
+}
+
+#baseball-case-thumbnail {
+  background-image: url("/assets/img/thumbs/baseball-case.png");
+}
+
+#light-switch-thumbnail {
+  background-image: url("/assets/img/thumbs/light-switch.png");
+}
+
+#wallet-thumbnail {
+  background-image: url("/assets/img/thumbs/wallet.png");
+}
+
+.caption-link {
+  text-decoration: underline;
+}
+
+.banner a {
+  text-decoration: none;
+}
+
+
+.project-name {
+  background-color: black;
+  color: white;
+  // letter-spacing: 0.2rem;
+}
+
+
+// SPEAKING //
+
+.speaking img {
+  position: relative;
+  // left: 20%;
+  top: -10vh;
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.speaking table {
+  background-color: #fefefe;
+  width: 100%;
+}
+
+.speaking p {
+  position: relative;
+  top: -10vh;
+}
+
+@media print, screen and (max-width: 1280px) {
+  div .web-apps-item, div .project-item {
+    flex: 100%;
+    margin-right: 0;
+    margin-left: 0;
   }
 
-  .voldemot  {
-    border: 2px solid black;
-    color: #fff;
-    letter-spacing: 0.6rem;
-    background-color: rgb(102, 0, 161);
-    }
-  
-  .orbitals {
-    border: 2px solid #fff;
-    color: #fff;
-    letter-spacing: 0.6rem;
-    background-image: linear-gradient(to right, orange 5%, black 15%, black 85%, #40acff 95%);
+  .project-thumbnail {
+    height: 40vw;
   }
 
-  .banner a {
-      text-decoration: none;
-  }
-
-  .banner a:hover {
-    color: #fff;
 }
 
 @media print, screen and (max-width: 960px) {
-
-.title-block {
+  .title-block {
     width: 120px;
-}
+  }
 
-.title-block h1 {
-    font-size: 1.2rem;
+  .title-block h1 {
+    font-size: 1.4rem;
     margin-left: 5px;
     margin-bottom: 0px;
-}
+  }
 
-navbar {
+  .menu-entry h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0px;
+  }
+
+  navbar {
     display: flex;
     width: 100%;
-}
+  }
 
-.menu-entry {
+  .menu-entry {
     font-size: 1rem;
     text-align: center;
-}
+  }
 
-.contact-options {
+  .contact-options {
     width: auto;
-}
+  }
 
 }
 
-@media print, screen and (max-width: 400px) {
-    .title-block h1 {
-        font-size: 1rem;
-    }
+@media print, screen and (max-width: 480px) {
+  .title-block h1 {
+    font-size: 1rem;
+  }
 
-    .menu-entry {
-        font-size: 0.8rem;
-    }
+  .menu-entry h2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
 }
