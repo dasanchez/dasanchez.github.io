@@ -6,7 +6,7 @@ layout: default
 
 I became a father recently. Before baby's arrival, my partner and I agreed on not posting any images of our child to social media. After the little one was born, I started sharing photos with my parents and siblings through WhatsApp.
 
-For the first month or so, I kept thinking if there was a way to bypass the zuckerverse, and centralized hosting services in general. In this post, I will go over the solution I have in place (so far).
+For the first month or so, I started wondering if I could create a digital photo album that would not only bypass the zuckerverse, but centralized hosting services in general. In this post, I will go over the solution I have in place (so far).
 
 ## Peer-to-peer: What? Why? How?
 
@@ -16,28 +16,22 @@ I have a few issues with relying on a company to host images of a child that has
 
 I see the business model of the hosting services I listed above as follows:
 
-[svg begins]
-1. baby face up pops up
-2. cell phone takes picture
-3. show a bunch of computers linked together (it can be just a mesh)
-4. cellphone uploads to central computer
-5. central computer replicates the data among a few servers
-6. central computer returns a link icon
-7. cell phone sends a link to other cell phones/computers
-8. other computers download the image via goofbox url
-9. central computer leaks data by broken pipes or money exchange
-10. original cell phone is served diaper ads
-[svg ends]
+1. You take a photo with your phone! A brand new image file is created.
 
 ![Baby photo](/assets/img/p2p-photo-album/baby-photo.svg) 
 
+2. You upload it to a central hosting service that you may or may not be paying for. Let's call it Goofbox. Goofbox will make sure your data is not lost.
 
 
-1. You take a photo with your phone! A brand new image file is created.
-2. You upload it to a central hosting service that you may or may not be paying for. Let's call it Goofbox.
-2. Goofbox will make sure your data is not lost.
+
 3. Goofbox will offer you a link you can share with people so they can access the data.
+
+
+
 4. As soon as the data arrives in their computers, Goofbox will have the option to sell, **ahem**, monetize as much of it as they can. In my case, hosting  my baby pictures in Goofbox may lead to diaper ads showing up on my Goofbox searches.
+
+
+
 5. Being a known and visible target, Goofbox may be exposed to hacks or leaks by either external or internal actors. This could lead to my baby photos becoming public. I would not like that.
 
 **What is the alternative?**
