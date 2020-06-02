@@ -6,7 +6,7 @@ layout: default
 
 I became a father recently. Before baby's arrival, my partner and I agreed on not posting any images of our child to social media. After the little one was born, I started sharing photos with my parents and siblings through WhatsApp.
 
-For the first month or so, I started wondering if I could create a digital photo album that would not only bypass the zuckerverse, but centralized hosting services in general. In this post, I will go over the solution I have in place (so far).
+For the first month or so, I started wondering if I could create a digital photo album that would bypass not only the zuckerverse, but centralized hosting services in general. In this post, I will go over the solution I have in place (so far).
 
 ## Peer-to-peer: What? Why? How?
 
@@ -18,16 +18,17 @@ I see the business model of the hosting services I listed above as follows:
 
 1. You take a photo with your phone! A brand new image file is created.
 
-![Baby photo](/assets/img/p2p-photo-album/baby-photo.svg) 
+![Baby photo](/assets/img/p2p-photo-album/baby-photo.svg)
 
-2. You upload it to a central hosting service that you may or may not be paying for. Let's call it Goofbox. Goofbox will make sure your data is not lost.
+{:start="2"}
+2. You upload your picture to a central hosting service that you may or may not be paying for. Let's call it Goofbox. Goofbox will make sure your data is not lost.
 
+![Photo upload](/assets/img/p2p-photo-album/photo-upload.svg)
 
-
+{:start="3"}
 3. Goofbox will offer you a link you can share with people so they can access the data.
 
-
-
+{:start="4"}
 4. As soon as the data arrives in their computers, Goofbox will have the option to sell, **ahem**, monetize as much of it as they can. In my case, hosting  my baby pictures in Goofbox may lead to diaper ads showing up on my Goofbox searches.
 
 
