@@ -1,0 +1,405 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0  800 450"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+<style>
+
+:root {
+  --src-phone: black;
+  --dest-phone: darkslategray;
+}
+
+#source-phone {
+  fill: var(--src-phone);
+  stroke: var(--src-phone);
+}
+
+#destination-phone {
+  fill: var(--dest-phone);
+  stroke: var(--dest-phone);
+}
+
+#share-icon {
+  animation-name: share-icon-motion;
+  /* animation-duration: 5s; */
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes share-icon-motion {
+  0% {
+    transform: translate(400px, 200px) scale(0.08) translate(-4650px,1500px);
+  }
+  9% {
+    transform: translate(400px, 200px) scale(0.08) translate(-4650px,1500px);
+  }
+  10% {
+    transform: translate(400px, 200px) scale(0.08) translate(-4000px,1500px);
+  }
+  15% {
+    transform: translate(400px, 200px) scale(0.08) translate(-3200px,1100px);
+  }
+  20% {
+    transform: translate(400px, 200px) scale(0.08) translate(-3100px,500px);
+  }
+  25% {
+    transform: translate(400px, 200px) scale(0.08) translate(-2000px,500px);
+  }
+  30% {
+    transform: translate(400px, 200px) scale(0.08) translate(-400px, 250px);
+  }
+  35% {
+    transform: translate(400px, 200px) scale(0.1) translate(-400px,-1000px);
+  }
+  40% {
+    transform: translate(400px, 200px) scale(0.1) translate(-400px,-1000px);
+  }
+  42.5% {
+     transform: translate(400px, 200px) scale(0.0, 0.1) translate(-400px,-1000px);   
+  }
+ 100% {
+    transform: translate(400px, 200px) scale(0.0, 0.1) translate(-400px,-1000px);
+  }
+}
+
+#link-icon {
+  animation-name: link-motion;
+  /* animation-duration: 5s; */
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+@keyframes link-motion {
+  0% {
+    transform: translate(400px, 200px) scale(0) translate(-400px,-1000px);
+  }
+  42.5% {
+    transform: translate(400px, 200px) scale(0, 0.1) translate(-400px,-1000px);
+  }
+  45% {
+    transform: translate(400px, 200px) scale(0.1, 0.1) translate(-400px,-1000px);
+  }
+  50% {
+    transform: translate(400px, 200px) scale(0.1, 0.1) translate(-400px,-1000px);
+  }
+  60% {
+    transform: translate(400px, 200px) scale(0.08) translate(-400px, 250px);
+  }
+  65% {
+    transform: translate(400px, 200px) scale(0.08) translate(-2000px,500px);
+  }
+  70% {
+    transform: translate(400px, 200px) scale(0.08) translate(-3100px,500px);
+  }
+  75% {
+    transform: translate(400px, 200px) scale(0.08) translate(-3200px,1100px);
+  }
+  80% {
+    transform: translate(400px, 200px) scale(0.08) translate(-4000px,1500px);
+  }
+  85% {
+    transform: translate(400px, 200px) scale(0.08) translate(-4650px,1500px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(0.08) translate(-4650px,1500px);
+  }
+}
+
+#infrastructure {
+  /* animation-name: infra-visibility; */
+  /* animation-duration: 10s; */
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+@keyframes infra-visibility {
+  0% {
+    opacity: 0;
+  }
+  31% {
+    opacity: 0;
+  }
+  32% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#moving-icon-1 {
+  /* animation-name: icon-motion-1; */
+  /* animation-duration: 10s; */
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes icon-motion-1 {
+  0% {
+    transform: scale(0.3, 0.3) translate(-200px, 950px);
+  }
+  35% {
+    transform: scale(0.3, 0.3) translate(-200px, 950px);
+  }
+  40% {
+    transform: scale(0.3, 0.3) translate(0px, 950px);
+  }
+  45% {
+    transform: scale(0.3, 0.3) translate(165px, 850px);
+  }
+  50% {
+    transform: scale(0.3, 0.3) translate(200px, 680px);
+  }
+  55% {
+    transform: scale(0.3, 0.3) translate(470px, 680px);
+  }
+  60% {
+    transform: scale(0.3, 0.3) translate(935px, 640px);
+  }
+  65% {
+    transform: scale(0.3, 0.3) translate(935px, 150px);
+  }
+  75% {
+    transform: scale(0.3, 0.3) translate(2150px, 50px);
+  }
+  100% {
+    transform: scale(0.3, 0.3) translate(2150px, 50px);
+  }
+}
+
+#goofbox-sign {
+  font: italic 48px serif;
+  font-family: Arial;
+  fill: black; 
+  letter-spacing: 2px;
+}
+
+</style>
+
+<rect width="800" height="450" fill="floralwhite" />
+
+<symbol id="baby-icon">
+<path d="M 340 90
+         l 100 0
+         l 20 20
+         l 0 160
+         l -120 0
+         l 0 -180
+         l 100 0
+         l 0 20
+         l 20 0"
+         stroke="black" fill="white" stroke-width="3" stroke-linejoin="round"/>
+
+   <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+<path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+<path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+<!-- head -->
+<circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+<path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+<rect id="right-eye" width="8" height="3" x="382" y="144" rx="1" />
+<rect id="left-eye" width="8" height="3" x="408" y="144" rx="1" />
+<circle id="mouth" r="3" cx="400" cy="160"/>  
+</symbol>
+
+<symbol id="phone">
+  <rect width="180" height="350" x="310" y="40" stroke-width="4" fill="white" rx="10" />
+  <rect width="180" height="50" x="310" y="340" rx="10" />
+  <rect width="180" height="10" x="310" y="340"  />
+  <circle id="photo-button" r="15" cx="400" cy="310" fill="none" stroke="black" stroke-width="3" />
+  <rect width="180" height="30" x="310" y="40" rx="10" />
+  <rect width="180" height="20" x="310" y="50" />
+</symbol>
+
+<g id="infrastructure" opacity="1">
+<g id="network">
+<!-- netlines 1 -->
+  <path d="M 60 340
+           l 60 0
+           l 50 -30
+           l 10 -50
+           l 80 0
+           l 140 -20
+           l 0 -50"
+           stroke="black" fill="none" stroke-width="3"/>
+  <!-- netlines 2 -->
+  <path d="M 120 340
+           l 10 50"
+           stroke="black" fill="none" stroke-width="3"/>
+    <path d="M 120 340
+           l 100 20
+           l 100 -40
+           l 200 0
+           l 30 -30
+           l 50 0
+           l 20 40"
+           stroke="black" fill="none" stroke-width="3"/>
+    <path d="M 120 340
+             l 0 -50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 220 360
+             l 10 -50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 220 360
+             l 20 50"
+             stroke="black" fill="none" stroke-width="3" />
+  <path d="M 220 360
+             l -30 60"
+             stroke="black" fill="none" stroke-width="3" />
+  <path d="M 260 260
+             l 60 60"
+             stroke="black" fill="none" stroke-width="3" />
+<path d="M 400 240
+             l 120 80"
+             stroke="black" fill="none" stroke-width="3" />
+<path d="M 550 240
+             l 0 50"
+             stroke="black" fill="none" stroke-width="3" />
+<path d="M 600 220
+             l 0 70"
+             stroke="black" fill="none" stroke-width="3" />
+<path d="M 600 290
+             l -50 100"
+             stroke="black" fill="none" stroke-width="3" />
+<path d="M 520 120 l 150 -50" stroke="black" stroke-width="3" />
+<path d="M 520 120 l 150 50" stroke="black" stroke-width="3" />
+  <!-- nodes -->
+  <circle r="8" cx="120" cy="340" />
+  <circle r="8" cx="170" cy="310" />
+  <circle r="8" cx="180" cy="260" />
+  <circle r="8" cx="260" cy="260" />
+  <circle r="8" cx="400" cy="240" />
+  <circle r="8" cx="120" cy="290" />
+  <circle r="8" cx="130" cy="390" />
+  <circle r="8" cx="230" cy="310" />
+  <circle r="8" cx="190" cy="420" />
+  <circle r="8" cx="240" cy="410" />
+  <circle r="8" cx="320" cy="320" />
+  <circle r="8" cx="520" cy="320" />
+  <circle r="8" cx="550" cy="290" />
+  <circle r="8" cx="600" cy="290" />
+  <circle r="8" cx="620" cy="330" />
+  <circle r="8" cx="550" cy="240" />
+  <circle r="8" cx="600" cy="220" />
+  <circle r="8" cx="550" cy="390" />
+</g>
+
+<g id="moving-icon-1" transform="scale(0.3, 0.3) translate(2150, 50)">
+   <use xlink:href="#baby-icon"/>
+</g>
+<g id="moving-icon-2" transform="scale(0.3, 0.3) translate(2150, 390)">
+   <use xlink:href="#baby-icon"/>
+</g>
+
+
+<g id="goofbox-building">
+  <rect width="240" height="150" x="280" y="40" stroke="black" fill="floralwhite" stroke-width="3" rx="5" />
+  <rect width="60" height="40" x="370" y="150" stroke="black" fill="none" stroke-width="3" />
+  <path d="M 400 150 l 0 40" stroke="black" stroke-width="2" />
+  <text id="goofbox-sign" x="305" y="90">Goofbox</text>
+</g>
+
+<g id="hard-drives">
+  <rect width="60" height="60" x="670" y="140" stroke="black" fill="floralwhite" stroke-width="3" rx="3" />
+  <ellipse cx="700" cy="180" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+  <ellipse cx="700" cy="170" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+  <ellipse cx="700" cy="160" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+
+  <rect width="60" height="60" x="670" y="40" stroke="black" fill="floralwhite" stroke-width="3" rx="3" />
+  <ellipse cx="700" cy="80" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+  <ellipse cx="700" cy="70" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+  <ellipse cx="700" cy="60" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+</g>
+
+<g id="source-phone" class="black-phone" transform="scale(0.2, 0.2) translate(-100, 1500)">
+    <use xlink:href="#phone"/>
+
+  <!-- <rect width="180" height="350" x="310" y="40" stroke="black" stroke-width="4" fill="white" rx="10" />
+  <rect width="180" height="50" x="310" y="340" stroke="none" fill="black" rx="10" />
+  <rect width="180" height="10" x="310" y="340" stroke="none" fill="black"  />
+  <circle id="photo-button" r="15" cx="400" cy="310" fill="none" stroke="black" stroke-width="3" />
+  <rect width="180" height="30" x="310" y="40" stroke="none" fill="black" rx="10" />
+  <rect width="180" height="20" x="310" y="50" stroke="none" fill="black" /> -->
+</g>
+
+</g>
+
+<g id="destination-phone" class="red-phone" transform="scale(0.3) translate(2000, 900)">
+  <use xlink:href="#phone"/>
+</g>
+
+<g id="link-icon">
+  <circle r="210" cx="400" cy="225" stroke="black" stroke-width="4" fill="white" />
+   <path d="M 350 185
+            l 0 -80
+            a 60 60 180 0 1 120 0
+            l 0 80
+            a 60 60 0 0 1 -70 60"
+            stroke="black" stroke-width="25" fill="none" stroke-linecap="round"
+            transform="translate(400, 200) rotate(30) translate(-400, -200)" />
+    <path d="M 470 255
+             l 0 80
+             a 60 60 0 0 1 -120 0
+             l 0 -80
+             a 60 60 180 0 1 70 -60"
+             stroke="black" stroke-width="25" fill="none" stroke-linecap="round"
+             transform="translate(400, 200) rotate(30) translate(-400, -200)" />
+</g>
+
+
+
+<g id="share-icon">
+  <circle r="210" cx="400" cy="225" stroke="black" stroke-width="4" fill="white" />
+  <circle r="30" cx="300" cy="230" fill="black" stroke="black"/>
+  <circle r="30" cx="480" cy="140" fill="black" stroke="black"/>
+  <circle r="30" cx="480" cy="300" fill="black" stroke="black"/>
+  <path d="M 480 140
+          L 300 230
+          L 480 300"
+          stroke="black" stroke-width="12" fill="none"/>
+</g>
+
+<g id="mail-icon">
+    <circle r="200" cx="400" cy="220" fill="white" stroke="black" stroke-width="4" />
+    <g id="envelope">
+        <rect width="260" height="180" x="270" y="160" fill="white" />
+         <path d="M 270 160
+                  l 0 180
+                  l 260 0
+                  l 0 -180"
+                  stroke="black" fill="none" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+        <path d="M 270 160
+                  l 105 70"
+                  stroke="black" fill="none" stroke-width="4" stroke-linecap="round"/>
+        <path d="M 530 160
+                  l -105 70"
+                  stroke="black" fill="none" stroke-width="4" stroke-linecap="round"/>
+        <path d="M 270 340
+                  l 130 -130
+                  l 130 130"
+                  stroke="black" fill="none" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+        <path id="top-fold"
+                d="M 270 160
+                   l 130 -120
+                   l 130 120
+                   l -260 0"
+                   stroke="black" fill="white" stroke-width="4"
+                   stroke-linejoin="round" stroke-linecap="round" />
+
+    </g>
+</g>
+
+</svg>
+

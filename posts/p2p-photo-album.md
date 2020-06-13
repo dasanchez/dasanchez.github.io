@@ -26,14 +26,16 @@ I see the business model of the hosting services I listed above as follows:
 ![Photo upload](/assets/img/p2p-photo-album/photo-upload.svg)
 
 {:start="3"}
-3. Goofbox will offer you a link you can share with people so they can access the data.
+3. If at some point you want to use Goofbox to share your picture, you can request provides you with a link you can share with people so they can access the data.
+
+![Photo share](/assets/img/p2p-photo-album/photo-share.svg)
 
 {:start="4"}
-4. As soon as the data arrives in their computers, Goofbox will have the option to sell, **ahem**, monetize as much of it as they can. In my case, hosting  my baby pictures in Goofbox may lead to diaper ads showing up on my Goofbox searches.
+4. As soon as the data arrives in their computers, Goofbox will have the option to sell, *ahem*, monetize as much of it as they can. In my case, hosting my baby pictures in Goofbox may lead to diaper ads showing up on my Goofbox searches.
 
 
 
-5. Being a known and visible target, Goofbox may be exposed to hacks or leaks by either external or internal actors. This could lead to my baby photos becoming public. I would not like that.
+Being a known and visible target, Goofbox may be exposed to hacks or leaks by either external or internal actors. This could lead to my baby photos becoming public. I would not like that.
 
 **What is the alternative?**
 
@@ -44,13 +46,28 @@ I tried to visualize different models that would let me keep better ownership an
 
 [svg begins]
 1. i take photo of baby
-2. i upload photo to server via fancy web ui
+2. i upload photo to own server via fancy web ui
 3. show large internet backdrop again
 4. parents access custom url (photos.p2pbaby.com), both from their computer or from their phone
 
 [svg ends]
 
-I could fire up a server in the cloud (e.g. a Digital Ocean droplet), where I could run one of many existing solutions for private photo albums out there.
+I could opt for one of many existing solutions for private photo albums out there and run it on my own server in the cloud (e.g. a Digital Ocean droplet). The process would then look like this:
+
+1. You take a photo with your phone! A brand new image file is created.
+
+![Baby photo](/assets/img/p2p-photo-album/baby-photo.svg)
+
+{:start="2"}
+2. You upload your picture to a server you control and maintain. You are responsible for data backups in case something happens to it.
+
+![Photo upload](/assets/img/p2p-photo-album/photo-upload.svg)
+
+{:start="3"}
+3. If at some point you want to share your picture or photo album, you can generate a link you can share with people so they can access the data.
+
+![Photo share](/assets/img/p2p-photo-album/photo-share.svg)
+
 
 A quick Goofbox search coughs up the following:
 
