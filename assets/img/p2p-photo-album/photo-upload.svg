@@ -248,13 +248,6 @@
     <circle r="8" cx="550" cy="390" />
   </g>
 
-  <g id="moving-icon-1">
-    <use xlink:href="#baby-icon"/>
-  </g>
-  <g id="moving-icon-2">
-    <use xlink:href="#baby-icon"/>
-  </g>
-
   <g id="goofbox-building">
     <rect width="240" height="150" x="280" y="40" stroke="black" fill="floralwhite" stroke-width="3" rx="5" />
     <rect width="60" height="40" x="370" y="150" stroke="black" fill="none" stroke-width="3" />
@@ -272,6 +265,13 @@
     <ellipse cx="700" cy="80" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
     <ellipse cx="700" cy="70" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
     <ellipse cx="700" cy="60" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+  </g>
+
+  <g id="moving-icon-1">
+    <use xlink:href="#baby-icon"/>
+  </g>
+  <g id="moving-icon-2">
+    <use xlink:href="#baby-icon"/>
   </g>
 </g>
 

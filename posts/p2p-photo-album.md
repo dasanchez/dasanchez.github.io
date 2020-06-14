@@ -26,7 +26,7 @@ I see the business model of the hosting services I listed above as follows:
 ![Photo upload](/assets/img/p2p-photo-album/photo-upload.svg)
 
 {:start="3"}
-3. If at some point you want to use Goofbox to share your picture, you can request provides you with a link you can share with people so they can access the data.
+3. If at some point you want to use Goofbox to share your picture, you can request a link you can share with people so they can access the data.
 
 ![Photo share](/assets/img/p2p-photo-album/photo-share.svg)
 
