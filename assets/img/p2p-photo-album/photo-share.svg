@@ -409,23 +409,23 @@
                   l 0 180
                   l 260 0
                   l 0 -180"
-                  stroke="black" fill="none" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+                  stroke="black" fill="none" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
         <path d="M 270 160
                   l 105 70"
-                  stroke="black" fill="none" stroke-width="4" stroke-linecap="round"/>
+                  stroke="black" fill="none" stroke-width="5" stroke-linecap="round"/>
         <path d="M 530 160
                   l -105 70"
-                  stroke="black" fill="none" stroke-width="4" stroke-linecap="round"/>
+                  stroke="black" fill="none" stroke-width="5" stroke-linecap="round"/>
         <path d="M 270 340
                   l 130 -130
                   l 130 130"
-                  stroke="black" fill="none" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+                  stroke="black" fill="none" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
         <path id="top-fold"
                 d="M 270 160
                    l 130 -120
                    l 130 120
                    l -260 0"
-                   stroke="black" fill="white" stroke-width="4"
+                   stroke="black" fill="white" stroke-width="5"
                    stroke-linejoin="round" stroke-linecap="round" />
 
   </g> 
