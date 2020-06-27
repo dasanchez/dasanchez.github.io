@@ -4,7 +4,7 @@ layout: default
 
 ### [Foundation](https://en.wikipedia.org/wiki/Foundation_%28Asimov_novel%29) - Isaac Asimov
 
-**"We had to develop new tecchniques and new methods, -techniques and methods the Empire can't follow because they have degenerated past the stage where they can make any really vital scientific advance.**
+**"We had to develop new techniques and new methods, -techniques and methods the Empire can't follow because they have degenerated past the stage where they can make any really vital scientific advance.**
 
 **"With all their nuclear shields, large enough to protect a ship, a city, an entire world; they could never build one to protect a single man. To supply light and heat to a city, they have motors six stories high, where ours could fit into this room. And when I told one of their nuclear specialists that a lead container the size of a walnut contained a nuclear generator, he almost choked with indignation on the spot.**
 
