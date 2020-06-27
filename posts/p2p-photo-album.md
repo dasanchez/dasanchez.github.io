@@ -8,7 +8,7 @@ I became a father recently. Before baby's arrival, my partner and I agreed on no
 
 For the first month or so, I started wondering if I could create a digital photo album that would bypass not only the zuckerverse, but centralized hosting services in general. In this post, I will go over the solution I have in place (so far).
 
-## Peer-to-peer: What? Why? How?
+## Why?
 
 First off, why not just make an album on one of my Google Photos/Office 365/Dropbox accounts and share that instead?
 
@@ -31,26 +31,16 @@ I see the business model of the hosting services I listed above as follows:
 ![Photo share](/assets/img/p2p-photo-album/photo-share.svg)
 
 {:start="4"}
-4. As soon as the data arrives in their computers, Goofbox will have the option to sell, *ahem*, monetize as much of it as they can. In my case, hosting my baby pictures in Goofbox may lead to diaper ads showing up on my Goofbox searches.
+4. As soon as the data arrives in their computers, Goofbox will have the option to sell, *ahem*, monetize as much of it as they can- the image itself, my identity and location, identities and locations of everyone else who has also accessed this image, and whatever data Goofbox may have on us. In my case, hosting my baby pictures in Goofbox may lead to diaper ads showing up on my Goofbox searches. Forget that noise.
 
+![Photo monetization](/assets/img/p2p-photo-album/photo-monetize.svg)
 
-
-Being a known and visible target, Goofbox may be exposed to hacks or leaks by either external or internal actors. This could lead to my baby photos becoming public. I would not like that.
-
-**What is the alternative?**
+### What is the alternative?
 
 I tried to visualize different models that would let me keep better ownership and control of my data.
 
 
-### Option A: Photo Management Package on Dedicated Server
-
-[svg begins]
-1. i take photo of baby
-2. i upload photo to own server via fancy web ui
-3. show large internet backdrop again
-4. parents access custom url (photos.p2pbaby.com), both from their computer or from their phone
-
-[svg ends]
+### Option A: Run a Photo Management Package on a Dedicated Server
 
 I could opt for one of many existing solutions for private photo albums out there and run it on my own server in the cloud (e.g. a Digital Ocean droplet). The process would then look like this:
 
@@ -59,67 +49,75 @@ I could opt for one of many existing solutions for private photo albums out ther
 ![Baby photo](/assets/img/p2p-photo-album/baby-photo.svg)
 
 {:start="2"}
-2. You upload your picture to a server you control and maintain. You are responsible for data backups in case something happens to it.
+2. You upload your picture to a server you control and maintain. You are responsible for data backups.
 
-![Photo upload](/assets/img/p2p-photo-album/photo-upload.svg)
+![Upload photo to my server](/assets/img/p2p-photo-album/photo-upload-my-server.svg)
 
 {:start="3"}
-3. If at some point you want to share your picture or photo album, you can generate a link you can share with people so they can access the data.
+3. If at some point you want to share your picture or photo album, you can send the address of the photo server to whoever you want to share it with.
 
-![Photo share](/assets/img/p2p-photo-album/photo-share.svg)
-
+![Share my server address](/assets/img/p2p-photo-album/photo-share-my-server.svg)
 
 A quick Goofbox search coughs up the following:
 
-- Piwigo
-- Chevereto
-- Lychee
-- PicApport
+- [Piwigo](https://piwigo.org/)
+- [Chevereto](https://chevereto.com/)
+- [Lychee](https://lychee.electerious.com/)
+- [PicApport](https://www.picapport.de/en/index.php)
 
 With most of these, I would have to learn some PHP, SQL, or Java. I'm focused on getting better at C++ and Python right now, so I don't feel like throwing another language in the mix.
 
 Also, I would have to either pay for a server or sort out access to one of my home computers if I wanted to dedicate one to this task.
 
-❌ Heavy installation and maintenance requirements
+❌ Heavy installation and maintenance requirements  
 ❌ Pay for dedicated server
 
 ### Option B: Share Files Directly from my Computer
 
-A different approach to relying on a server is to use a peer-to-peer system. This means that instead of the files being only available on a single machine, my relatives can download the latest version of the photo album and they can in turn make it available to more people:
-
-SVG goes here
+A different approach to relying on a single server is to have my relatives download the latest version of the photo album directly from my computer:
 
 
-I am aware of two protocols for peer-to-peer file sharing: IPFS and Dat.
 
-IPFS borrows a lot of ideas from BitTorrent, but it can be a bit demanding on computer resources. Because it operates on a "global namespace", I would be making my files available on a single, huge filesystem.
-Dat is geared towards data set publishing, and has a built-in version control system. Beaker (a web browser powered by Dat) is built for self-publishing websites and web apps.
+**This is a peer-to-peer system!**
+ 
+I am aware of two (somewhat  new) protocols for peer-to-peer file sharing: IPFS and Dat.
+
+IPFS is made to share all sorts of media, but the tools I could find do not allow for user-friendly updates to a given set of files. I want a single address that I can reuse even after I have added new photos, for instance. IPFS lets you do this through the IPNS system, but it's not straightforward to me.
+
+Dat is more geared towards data sets. Beaker (a web browser powered by Dat) is built for self-publishing websites and web apps.
 
 As I was reading up on my options, I came across one of Paul Frazee's live streams: [Build a personal website in Beaker with WebComponents](https://www.youtube.com/watch?v=M7g_ZCqSI88). In it, he builds a simple website that updates a Photos page whenever he adds images to a local folder. The dat protocol then allows these changes to propagate to any computer that access the dat URL. If these machines have "seeding" on, then they can serve the content themselves! This way my computer doesn't need to stay on the whole time.
 
 I thought that if I could adapt his code, I could build a photo album website that would be easy enough to update, and the biggest challenge afterwards would be to get my relatives to install a new, unfamiliar browser.
 
-✔ New browser and a little bit of HTML5 know-how 
-✔ I can publish a website from any personal computer
+✔ New browser and a little bit of HTML5 know-how  
+✔ I can publish a website from any personal computer  
 ⚠ Kinda so-so: I need to provide storage space
 
 Here is the idea so far:
 
-[svg begins]
-1. take a picture of baby
-2. load picture on computer
-3. hit Publish button
-4. send dat url to family
-5. sister downloads website
-6. i turn my computer off
-7. sister visits parents and they get the website over local wifi
-[svg ends]
+1. You take a photo with your phone! A brand new image file is created.
 
-1. You copy images to a local folder on your computer.
-2. You publish a photo album website using the Beaker browser.
-3. You share the dat URL with whoever you want.
-4. Whoever has access to the URL has the option to seed the site. This way they can provide the data if your computer is off.
-5. If your computer breaks, you can always recover the data if there is at least one more machine seeding the site.
+![Baby photo](/assets/img/p2p-photo-album/baby-photo.svg)
+
+2. You copy the image file to your computer (I don't think a solid dat browser exists for mobile *yet*). 
+
+
+3. Add the file to your hyperdrive.
+
+
+4. Send the hyper:// address to whoever you want to share the drive with.
+
+
+5. One relative accesses the drive and they start browsing the photo album.
+
+
+6. Shortly after, another relative starts browsing the photo album as well and they start hosting it too
+
+7. If your computer goes offline, relative # 2 can still serve the content from their computer. Amazing!
+
+This has the added benefit of redundant data backups. If my computer breaks, I can recover the data as long as there is at least another machine online seeding the hyperdrive.
+
 
 ## The code
 
