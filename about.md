@@ -8,7 +8,7 @@ layout: default
 
 <span style="font-size: 1.2rem">⚙</span>  I work as a Sr. Mechanical Engineer in a mass spectrometry research team at [PerkinElmer](https://www.perkinelmer.com). 
 
-<span style="font-size: 1.2rem">💻</span>  I am interested in community networks and peer-to-peer technologies. I was the event coordinator for [Toronto Mesh](https://tomesh.net/) from 2018 to 2019.
+<span style="font-size: 1.2rem">💻</span>  I am interested in community networks and peer-to-peer technologies. I was the event coordinator for [Toronto Mesh](https://tomesh.net/) from 2018 to 2019, and I delivered a handful of [talks](speaking) during that time.
 
 <span style="font-size: 1.2rem">📖</span>  I am currently reading [Braiding Sweetgrass](https://en.wikipedia.org/wiki/Braiding_Sweetgrass), by Robin Wall Kimmerer.
 

@@ -68,15 +68,15 @@
   }
   8% {
     opacity: 1;
-    transform: translate(400px, 200px) scale(0.1) translate(-400px, -200px) translate(-2650px, -1500px);
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-1000px, -350px);
   }
   10% {
     opacity: 0;
-    transform: translate(400px, 200px) scale(0.1) translate(-400px, -200px) translate(-2650px, -1500px);
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-1000px, -350px);
   }
   100% {
     opacity: 0;
-    transform: translate(400px, 200px) scale(0.1) translate(-400px, -200px) translate(-2650px, -1500px);
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-1000px, -350px);
   }
 }
 

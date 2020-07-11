@@ -1,0 +1,301 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 450"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+>
+
+<style>
+
+:root {
+  --src-phone: black;   
+  --dest-phone: darkslategray;
+  --animation-length: 10s;
+}
+
+#laptop {
+  fill: var(--src-phone);
+  stroke: var(--src-phone);
+}
+
+#website-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  letter-spacing: 2px;
+}
+
+#website {
+  animation-name: website-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes website-animation {
+  0% {
+    
+  }
+  25% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  30% {
+    transform: translate(40px, 225px) scale(0.12);
+  } 
+  100% {
+    transform: translate(40px, 225px) scale(0.12);
+  } 
+}
+
+#roving-website {
+  animation-name: roving-website-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes roving-website-animation{
+  0% {
+    opacity: 0;
+    transform: translate(40px, 225px) scale(0.12);
+  }
+  35% {
+    opacity: 0;
+    transform: translate(40px, 225px) scale(0.12);
+  }
+  36% {
+    opacity: 1;
+    transform: translate(28px, 219px) scale(0.15);
+  }
+  40% {
+    transform: translate(140px, 219px) scale(0.15);
+  }
+  45% {
+    transform: translate(240px, 235px) scale(0.15);
+  }
+  50% {
+    transform: translate(340px, 195px) scale(0.15);
+  }
+  55% {
+    transform: translate(440px, 195px) scale(0.15);
+  }
+  60% {
+    transform: translate(480px, 225px) scale(0.15);
+  }
+  65% {
+    transform: translate(525px, 209px) scale(0.15);
+  }
+  70% {
+    transform: translate(652px, 213px) scale(0.12);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(652px, 213px) scale(0.12);
+  }
+}
+
+#infrastructure {
+  animation-name: infra-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes infra-animation {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  35% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+</style>
+
+<rect width="800" height="450" fill="floralwhite" />
+
+<symbol id="baby-asleep-icon">
+  <rect width="120" height="180" x="340" y="90" stroke="black" fill="white" stroke-width="3" stroke-linejoin="round" />
+  <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+  <path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+  <path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+  <!-- head -->
+  <circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+  <path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+  <rect id="right-eye" width="8" height="3" x="384" y="144" rx="1" />
+  <rect id="left-eye" width="8" height="3" x="406" y="144" rx="1" />
+  <circle id="mouth" r="3" cx="400" cy="160"/>  
+</symbol>
+
+<symbol id="baby-awake-icon">
+  <rect width="120" height="180" x="340" y="90" stroke="black" fill="white" stroke-width="3" stroke-linejoin="round" />
+  <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+  <path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+  <path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+  <!-- head -->
+  <circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+  <path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+  <circle id="right-eye" r="3" cx="389" cy="144" fill="black" stroke="black"/>
+  <circle id="left-eye" r="3" cx="409" cy="144" fill="black" stroke="black" />
+  <!-- <circle id="mouth" r="3" cx="400" cy="160"/>   -->
+  <line x1="390" x2="408" y1="158" y2="158" stroke="black" stroke-width="3"/>
+</symbol>
+
+<symbol id="website-symbol">
+  <rect width="600" height="354" x="100" y="50" stroke="black" fill="aliceblue" />
+  <text id="website-title" x="200" y="120">
+    My Photo Album
+  </text>
+
+  <g id="baby-icon-1" transform="scale(0.8) translate(-120, 140)">
+    <use xlink:href="#baby-asleep-icon"/>
+  </g>
+  <g id="baby-icon-2" transform="scale(0.8) translate(120, 140)">
+    <use xlink:href="#baby-awake-icon"/>
+  </g>   
+</symbol>
+
+<g id="infrastructure">
+  <g id="network">
+    <!-- netlines 1 -->
+    <path d="M 140 250
+           l 60 0
+           l 50 -30
+           l 10 -50
+           l 80 0"
+           stroke="black" fill="none" stroke-width="3"/>
+    <!-- netlines 2 -->
+    <path d="M 200 250
+           l 10 50"
+           stroke="black" fill="none" stroke-width="3"/>
+    <path d="M 200 250
+           l 100 20
+           l 100 -40
+           l 100 0
+           l 30 -30
+           l 50 0
+           l 20 40
+           l 50 0"
+           stroke="black" fill="none" stroke-width="3"/>
+    <path d="M 200 250
+             l 0 -50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 300 270
+             l 10 -50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 300 270
+             l 20 50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 300 270
+             l -30 60"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 340 170
+             l 60 60"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 530 150
+             l 0 50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 500 230
+             l 40 30
+             l 60 -20"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 530 150
+             l -190 20"
+             stroke="black" fill="none" stroke-width="3" />
+    <!-- nodes -->
+    <circle r="8" cx="200" cy="250" />
+    <circle r="8" cx="250" cy="220" />
+    <circle r="8" cx="260" cy="170" />
+    <circle r="8" cx="340" cy="170" />
+    <circle r="8" cx="200" cy="200" />
+    <circle r="8" cx="210" cy="300" />
+    <circle r="8" cx="310" cy="220" />
+    <circle r="8" cx="270" cy="330" />
+    <circle r="8" cx="320" cy="320" />
+    <circle r="8" cx="400" cy="230" />
+    <circle r="8" cx="500" cy="230" />
+    <circle r="8" cx="530" cy="200" />
+    <circle r="8" cx="580" cy="200" />
+    <circle r="8" cx="600" cy="240" />
+    <circle r="8" cx="530" cy="150" />
+    <circle r="8" cx="540" cy="260" />
+  </g>
+
+  <g id="laptop-source" transform="translate(-12, 170)">
+    <path d="M 50 50
+             l 100 0
+             l 0 70
+             l 15 18
+             l -130 0
+             l 15 -18
+             l 0 -70"
+             stroke="black" fill="gainsboro" stroke-width="3" stroke-linejoin="round"
+             stroke-linecap="round" />
+    <path d="M 44 124
+             l 95 0
+             l 8 10
+             l -95 0
+             l 8 -10"
+             stroke="none" fill="gray" />
+    <line x1="50" x2="150" y1="120" y2="120" stroke="black"/>
+    <rect width="88" height="54" x="56" y="56" stroke="none" fill="white" />
+
+  </g>
+
+  <g id="laptop-destination" transform="translate(600, 160)">
+    <path d="M 50 50
+             l 100 0
+             l 0 60
+             l 15 18
+             l -130 0
+             l 15 -18
+             l 0 -60"
+             stroke="black" fill="lightcoral" stroke-width="3" stroke-linejoin="round"
+             stroke-linecap="round" />
+    <path d="M 44 114
+             l 95 0
+             l 8 10
+             l -95 0
+             l 8 -10"
+             stroke="none" fill="black" />
+    <line x1="50" x2="150" y1="110" y2="110" stroke="black"/>
+    <rect width="84" height="48" x="58" y="56" stroke="none" fill="white" />
+  </g>
+</g>
+
+
+<g id="website">
+  <use xlink:href="#website-symbol"/>
+</g>
+
+<g id="roving-website">
+  <use xlink:href="#website-symbol"/> 
+</g>
+
+</svg>
