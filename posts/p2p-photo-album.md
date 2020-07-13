@@ -125,10 +125,10 @@ I have prepared a template based on the one provided by Beaker. You can go to [t
 {:start="5"}
 5. My sister starts hosting the hyperdrive.
 
-# TODO: Animation
+![Sister turns hosting on](/assets/img/p2p-photo-album/sister-host.svg)
 
 {:start="6"}
-6. I add another photo: my sister gets the update before I turn my computer off.
+6. I add another photo: my sister's laptop gets the update, and I proceed to close Beaker.
 
 # TODO: Animation
 

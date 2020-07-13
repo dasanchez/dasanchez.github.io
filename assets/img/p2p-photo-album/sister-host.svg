@@ -9,7 +9,7 @@
 :root {
   --src-phone: black;   
   --dest-phone: darkslategray;
-  --animation-length: 3s;
+  --animation-length: 8s;
 }
 
 #laptop {
@@ -41,80 +41,103 @@
 }
 
 #screen-top {
-  animation-name: screen-top-animation;
-  animation-duration: var(--animation-length);
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-}
-@keyframes screen-top-animation{
-  0% {
-      transform: translate(411px, 231px) scale(1, 0) translate(-411px, -231px);
-      opacity: 0;
-  }
-  20% {
-      transform: translate(411px, 231px) scale(1, 0) translate(-411px, -231px);
-      opacity: 0;
-  }
-  30% {
-      transform: translate(411px, 231px) scale(1, 1) translate(-411px, -231px);
-      opacity: 1;
-  }
-  100% {
-      transform: translate(411px, 231px) scale(1, 1) translate(-411px, -231px);
-      opacity: 1;
-  }
+  transform: translate(411px, 231px) scale(1, 1) translate(-411px, -231px);
 }
 
 #screen-bottom {
-  animation-name: screen-bottom-animation;
-  animation-duration: var(--animation-length);
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-}
-@keyframes screen-bottom-animation{
-  0% {
-      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
-                   scale(1, 0) translate(-411px, -231px);
-      opacity: 0;
-  }
-  20% {
-      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
-                   scale(1, 0) translate(-411px, -231px);
-      opacity: 0;
-  }
-  30% {
-      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
+  transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
                    scale(1, 1) translate(-411px, -231px);
-      opacity: 1;
-  }
-  100% {
-      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
-                   scale(1, 1) translate(-411px, -231px);
-      opacity: 1;
-  }
 }
 
 .shutdown-line {
-  animation-name: infra-animation;
+  opacity: 0;
+}
+
+#my-laptop, #mom-desktop, #p2p-infra {
+  animation-name: bg-animation;
   animation-duration: var(--animation-length);
   animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
+  animation-direction: forwards;
+  animation-timing-function: ease;
 }
-@keyframes infra-animation{
+@keyframes bg-animation {
   0% {
-      opacity: 1;
+    opacity: 1;
+  }
+  15% {
+    opacity: 1;
   }
   20% {
-      opacity: 1;
-  }
-  30% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
+  }
+}
+
+#sister-laptop {
+  animation-name: sister-laptop-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: ease;
+}
+@keyframes sister-laptop-animation{ 
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(1);
+  }
+  40% {
+    transform: translate(460px, 50px) scale(3.5) translate(-545px,-55px);
+  }
+  100% {
+    transform: translate(460px, 50px) scale(3.5) translate(-545px,-55px);
+  }
+}
+
+#host-button {
+  animation-name: host-button-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes host-button-animation {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(0px);
+  }
+  65% {
+    transform:translate(8px, 0px);
+  }
+  100% {
+    transform:translate(8px, 0px);
+  }
+}
+
+#host-status {
+  animation-name: host-status-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: linear;
+}
+@keyframes host-status-animation {
+  0% {
+    fill: lightgray;
+  }
+  64% {
+    fill: lightgray;
+  }
+  65% {
+    fill: lightgreen;
+  }
+  100% {
+    fill: lightgreen;
   }
 }
 
@@ -180,7 +203,6 @@
   <g id="baby-icon-1" transform="scale(0.8) translate(0, 140)">
     <use xlink:href="#baby-asleep-icon"/>
   </g>
-  
 </symbol>
 
 <g id="p2p-infra">
@@ -215,7 +237,7 @@
   </g>
 </g>
 
-<g id="sister-laptop">
+<g id="sister-laptop" transform="translate(460, 50) scale(3.5) translate(-545,-55)">
   <path d="M 460 50
            l 140 0
            l 0 90
@@ -238,14 +260,26 @@
 
   <g id="website-sister">
     <rect width="120" height="65" x="470" y="60" stroke="black" fill="aliceblue" />
-    <text id="website-title-sister" x="480" y="75">
+    <text id="website-title-sister" x="480" y="85">
       My Photo Album
     </text>
 
-    <g id="baby-icon-1" transform="scale(0.15) translate(3000, 500)">
+    <g id="baby-icon-1" transform="scale(0.15) translate(3000, 520)">
       <use xlink:href="#baby-asleep-icon"/>
     </g>
   </g>
+
+  <g id="address-bar">
+    <rect width="74" height="10" x="472" y="62" rx="2" fill="white" stroke="black" stroke-width="0.5" />
+    <text x="474" y="69" style="font-size:6px; font-family: sans-serif;">hyper://photos</text>
+    <line x1="470" x2="590" y1="74" y2="74" stroke="black" stroke-width="1" />
+
+  </g>
+
+  <rect id="host-status" width="18" height="10" x="570" y="62" rx="5" fill="lightgray"/>
+  <circle id="host-button" r="4" cx="575" cy="67" fill="gray" stroke="none"/>
+  <text x="549" y="70" style="font-size:8px; font-family: sans-serif;">Host</text>
+
 </g>
 
 <g id="mom-desktop">
@@ -272,7 +306,5 @@
                    scale(1, 0) translate(-411, -231)"/>
 
 </g>
-
-
 
 </svg>
