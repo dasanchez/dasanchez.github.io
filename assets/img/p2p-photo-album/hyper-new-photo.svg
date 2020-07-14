@@ -53,106 +53,156 @@
   opacity: 0;
 }
 
-#my-laptop, #mom-desktop, #p2p-infra {
-  animation-name: bg-animation;
+#camera {
+  animation-name: camera-animation;
   animation-duration: var(--animation-length);
   animation-iteration-count: infinite;
   animation-direction: forwards;
   animation-timing-function: ease;
 }
-@keyframes bg-animation {
+@keyframes camera-animation {
   0% {
-    opacity: 1;
+    transform: translate(0, 200px);
+  }
+  10% {
+    transform: translate(0, 200px);
   }
   15% {
-    opacity: 1;
+    transform: none;
   }
-  20% {
-    opacity: 0;
-  }
-  80% {
-    opacity: 0;
-  }
-  85% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-#sister-laptop {
-  animation-name: sister-laptop-animation;
-  animation-duration: var(--animation-length);
-  animation-iteration-count: infinite;
-  animation-direction: forwards;
-  animation-timing-function: ease;
-}
-@keyframes sister-laptop-animation{ 
-  0% {
-    transform: scale(1);
-  }
-  20% {
-    transform: scale(1);
+  37% {
+      transform: none;
   }
   40% {
-    transform: translate(460px, 50px) scale(3.5) translate(-545px,-55px);
-  }
-  75% {
-    transform: translate(460px, 50px) scale(3.5) translate(-545px,-55px);
-  }
-  85% {
-    transform: scale(1);
+      transform: translate(0, 200px);
   }
   100% {
-    transform: scale(1);
+    transform: translate(0, 200px);
   }
 }
 
-#host-button {
-  animation-name: host-button-animation;
+#camera-cable {
+    fill: none;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: writeon var(--animation-length) ease infinite;
+}
+@keyframes writeon {
+    0% { stroke-dashoffset: 1; }
+    18% { stroke-dashoffset: 1;}
+    25% { stroke-dashoffset: 0;}
+    32% { stroke-dashoffset: 0;}
+    37% { stroke-dashoffset: 1;}
+    100% { stroke-dashoffset: 1; }
+}
+
+#new-baby-icon {
+  animation-name: new-photo-animation;
   animation-duration: var(--animation-length);
   animation-iteration-count: infinite;
   animation-direction: forwards;
   animation-timing-function: ease-in;
 }
-@keyframes host-button-animation {
+@keyframes new-photo-animation {
   0% {
-    transform: translate(0px);
+    opacity: 0;
   }
-  50% {
-    transform: translate(0px);
+  25% {
+    opacity: 0;
   }
-  55% {
-    transform:translate(8px, 0px);
+  30% {
+    opacity: 1;
   }
   100% {
-    transform:translate(8px, 0px);
+    opacity: 1;
   }
 }
 
-#host-status {
-  animation-name: host-status-animation;
+.p2p-link {
+  animation-name: p2p-link-animation;
   animation-duration: var(--animation-length);
   animation-iteration-count: infinite;
   animation-direction: forwards;
   animation-timing-function: linear;
 }
-@keyframes host-status-animation {
+@keyframes p2p-link-animation {
   0% {
-    fill: lightgray;
+    stroke: black;
   }
-  54% {
-    fill: lightgray;
+  40% {
+    stroke: black;
   }
-  55% {
-    fill: lightgreen;
+  42% {
+    stroke: goldenrod;
+    stroke-width: 10px;
+  }
+  44% {
+    stroke: black;
+    stroke-width: 5px;
+  }
+  46% {
+    stroke: greenyellow;
+    stroke-width: 10px;
+  }
+  48% {
+    stroke: black;
+    stroke-width: 5px;
+  }
+  75% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 0;
   }
   100% {
-    fill: lightgreen;
+    opacity: 0;
+    stroke: black;
   }
 }
 
+#sister-baby-icon {
+  animation-name: sister-photo-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: ease-in;
+}
+@keyframes sister-photo-animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#screen {
+  animation-name: screen-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes screen-animation{
+  0% {
+      opacity: 0;
+  }
+  75% {
+      opacity: 0;
+  }
+  85% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 1;
+  }
+}
 </style>
 
 <rect width="800" height="450" fill="floralwhite" />
@@ -206,21 +256,50 @@
   <line x1="390" x2="408" y1="158" y2="158" stroke="black" stroke-width="3"/>
 </symbol>
 
+<symbol id="camera-symbol">
+    <rect width="90" height="180" x="355" y="80" stroke="black" stroke-width="3" fill="white" rx="10" />
+    <rect width="90" height="30" x="355" y="230" stroke="none" fill="black" rx="10" />
+    <rect width="90" height="10" x="355" y="230" stroke="none" fill="black"  />
+    <circle id="photo-button" r="10" cx="400" cy="212" fill="none" stroke="black" stroke-width="3" />
+    <rect width="90" height="20" x="355" y="80" stroke="none" fill="black" rx="10" />
+    <rect width="90" height="10" x="355" y="90" stroke="none" fill="black" />
+    <use xlink:href="#baby-awake-icon" transform="scale(0.5) translate(400, 120)">
+</symbol>
+
+
 <symbol id="website-symbol">
   <rect width="630" height="340" x="100" y="50" stroke="black" fill="aliceblue" />
   <text id="website-title" x="200" y="140">
     My Photo Album
   </text>
 
-  <g id="baby-icon-1" transform="scale(0.8) translate(0, 140)">
-    <use xlink:href="#baby-asleep-icon"/>
+  <g id="baby-icon-1">
+    <use xlink:href="#baby-asleep-icon" transform="scale(0.8) translate(0, 140)" />
+  </g>
+
+  <g id="new-baby-icon">
+    <use xlink:href="#baby-awake-icon" transform="scale(0.8) translate(220, 140)"/>
   </g>
 </symbol>
 
 <g id="p2p-infra">
-  <line x1="240" x2="470" y1="180" y2="80" stroke="black" stroke-width="5" />
+  <line class="p2p-link" x1="240" x2="470" y1="180" y2="80" stroke="black" stroke-width="5" />
   <line class="shutdown-line" x1="240" x2="420" y1="200" y2="300" stroke="black" stroke-width="5" />
   <line class="shutdown-line" x1="530" x2="530" y1="150" y2="250" stroke="black" stroke-width="5" />
+</g>
+
+<g id="camera-cable">
+  <path d="M 188 360
+           l -120 0
+           a 40 40 -90 0 1 -40 -40
+           l 0 -55
+           a 20 20 90 0 1 20 -20
+           l 15 0"
+           stroke="black" fill="none" stroke-width="5" pathLength="1"/>
+</g>
+
+<g id="camera">
+  <use xlink:href="#camera-symbol" transform="scale(0.8) translate(-120, 280)"/>
 </g>
 
 <g id="my-laptop">
@@ -247,9 +326,11 @@
   <g id="source-website" transform="scale(0.22) translate(312, 590)">
     <use xlink:href="#website-symbol" /> 
   </g>
+
+  <rect id="screen" width="140" height="76" x="90" y="140" fill="gray" stroke="gray"/>
 </g>
 
-<g id="sister-laptop" transform="translate(460, 50) scale(3.5) translate(-545,-55)">
+<g id="sister-laptop">
   <path d="M 460 50
            l 140 0
            l 0 90
@@ -279,6 +360,9 @@
     <g id="baby-icon-1" transform="scale(0.15) translate(3000, 520)">
       <use xlink:href="#baby-asleep-icon"/>
     </g>
+    <g id="sister-baby-icon">
+        <use xlink:href="#baby-awake-icon" transform="scale(0.15) translate(3250,520)"/>
+    </g>
   </g>
 
   <g id="address-bar">
@@ -288,34 +372,17 @@
 
   </g>
 
-  <rect id="host-status" width="18" height="10" x="570" y="62" rx="5" fill="lightgray"/>
-  <circle id="host-button" r="4" cx="575" cy="67" fill="gray" stroke="none"/>
+  <rect id="host-status" width="18" height="10" x="570" y="62" rx="5" fill="lightgreen"/>
+  <circle id="host-button" r="4" cx="583" cy="67" fill="gray" stroke="none"/>
   <text x="549" y="70" style="font-size:8px; font-family: sans-serif;">Host</text>
 
 </g>
 
 <g id="mom-desktop">
-   <rect width="240" height="140" x="410" y="230" stroke="black" fill="white"
+   <rect width="240" height="140" x="410" y="230" stroke="black" fill="gray"
    stroke-width="5" stroke-linejoin="round"/>
    <rect width="40" height="30" x="510" y="370" />
    <rect width="140" height="10" x="460" y="400" />
-
-  <g id="website-mom">
-    <rect width="240" height="140" x="410" y="230" stroke="black" fill="aliceblue" />
-    <text id="website-title-mom" x="425" y="265">
-      My Photo Album
-    </text>
-
-    <g id="baby-icon-1" transform="scale(0.4) translate(840, 610)">
-      <use xlink:href="#baby-asleep-icon"/>
-    </g>
-  </g>
-
-  <rect id="screen-top" width="238" height="69" x="411" y="231" fill="gray" stroke="gray"
-        transform="translate(411, 231) scale(1, 0) translate(-411, -231)"/>
-  <rect id="screen-bottom" width="238" height="69" x="411" y="231" fill="gray" stroke="gray"
-        transform="translate(411, 231) translate(0, 140) rotate(180) translate(-238, 2)
-                   scale(1, 0) translate(-411, -231)"/>
 
 </g>
 
