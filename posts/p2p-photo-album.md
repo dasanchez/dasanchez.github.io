@@ -79,7 +79,7 @@ A different approach to relying on a single server is to have my relatives acces
 
 I am aware of two (somewhat new) protocols for peer-to-peer file sharing: [IPFS](https://ipfs.io/) and [Hypercore](https://hypercore-protocol.org/).
 
-**IPFS** is made to share all sorts of media, but I did not find its ecosystem to be all that intuitive for creating and consuming content alike (i.e. updating and accessing a photo album regularly). I am fairly sure IPFS is not the solution what I am looking for. 
+**IPFS** is made to share all sorts of media, but I did not find its ecosystem to be all that intuitive for creating and consuming content alike (i.e. updating and accessing a photo album regularly). I am fairly sure IPFS is not the solutionthat I am looking for. 
 
 **Hyperdrive** is a peer-to-peer filesystem built with hypercores. **[Beaker](https://beakerbrowser.com/)**, a peer-to-peer browser, is built for self-publishing websites and web apps through hyperdrives. This is much closer to what I have in mind.
 
