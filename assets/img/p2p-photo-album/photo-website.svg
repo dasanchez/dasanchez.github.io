@@ -1,0 +1,269 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 450"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+>
+
+<style>
+
+:root {
+  --src-phone: black;   
+  --dest-phone: darkslategray;
+  --animation-length: 5s;
+}
+
+#laptop {
+  fill: var(--src-phone);
+  stroke: var(--src-phone);
+}
+
+#website-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  letter-spacing: 2px;
+}
+
+#hyper-address{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  letter-spacing: 3px;
+}
+
+#album-path{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  letter-spacing: 3px;
+}
+
+#camera {
+  animation-name: camera-motion;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes camera-motion{
+0% {
+    transform: translate(0px);
+}
+10% {
+    transform: translate(0px);
+}
+15% {
+    transform: translate(300px, 0px);
+}
+100% {
+    transform: translate(300px, 0px);
+}
+}
+
+#laptop {
+  animation-name: laptop-motion;
+  animation-duration: 10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes laptop-motion{
+0% {
+    transform: scale(4) translate(-200px, -40px);
+}
+10% {
+    transform: scale(4) translate(-200px, -40px);
+}
+15% {
+    transform: scale(4) translate(-30px, -40px);
+}
+100% {
+    transform: scale(4) translate(-30px, -40px);
+}
+}
+
+#usb-cable {
+    fill: none;
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: writeon 10s ease infinite;
+}
+@keyframes writeon {
+    0% { stroke-dashoffset: 1; }
+    18% { stroke-dashoffset: 1;}
+    25% { stroke-dashoffset: 0;}
+    100% { stroke-dashoffset: 0; }
+}
+
+#file-explorer {
+    animation-name: explorer-motion;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+@keyframes explorer-motion{
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    35% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#photo-transfer {
+    animation-name: file-motion;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes file-motion {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) translate(400px, 120px) translate(600px, 0px);
+    }
+    30% {
+        opacity: 0;
+        transform: scale(0.5) translate(400px, 120px) translate(600px, 0px);
+    }
+    40% {
+        opacity: 1;
+        transform: scale(0.5) translate(400px, 120px) translate(600px, 0px);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(0.6) translate(-50px, 120px);
+    }
+    100% {
+        transform: scale(0.6) translate(-50px, 120px);
+    }
+}
+
+#photo-album-website {
+    animation-name: website-animation;
+    animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes website-animation {
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    60% {
+        transform: scale(0);
+    }
+    66% {
+        opacity: 0;
+    }
+    68% {
+        opacity: 1;
+    }
+    75% {
+        transform: scale(0.58) translate(84px, 66px);
+    }
+    100% {
+        transform: scale(0.58) translate(84px, 66px);
+    }
+}
+
+</style>
+
+<rect width="800" height="450" fill="floralwhite" />
+
+<symbol id="baby-asleep-symbol">
+  <rect width="120" height="180" x="340" y="90" stroke="black" fill="white" stroke-width="3" stroke-linejoin="round" />
+  <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+  <path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+  <path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+  <!-- head -->
+  <circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+  <path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+  <rect id="right-eye" width="8" height="3" x="384" y="144" rx="1" />
+  <rect id="left-eye" width="8" height="3" x="406" y="144" rx="1" />
+  <circle id="mouth" r="3" cx="400" cy="160"/>  
+</symbol>
+
+<symbol id="camera-symbol">
+    <rect width="90" height="180" x="355" y="80" stroke="black" stroke-width="3" fill="white" rx="10" />
+    <rect width="90" height="30" x="355" y="230" stroke="none" fill="black" rx="10" />
+    <rect width="90" height="10" x="355" y="230" stroke="none" fill="black"  />
+    <circle id="photo-button" r="10" cx="400" cy="212" fill="none" stroke="black" stroke-width="3" />
+    <rect width="90" height="20" x="355" y="80" stroke="none" fill="black" rx="10" />
+    <rect width="90" height="10" x="355" y="90" stroke="none" fill="black" />
+</symbol>
+
+<symbol id="website-symbol">
+  <rect width="603" height="371" x="97" y="46" stroke="black" fill="aliceblue" stroke-width="2" />
+  <rect width="580" height="50" x="105" y="50" rx="5" stroke="black" fill="white" stroke-width="1" />
+  <text id="hyper-address" x="120" y="88">hyper://photos</text>
+  <text id="website-title" x="200" y="160">
+    My Photo Album
+  </text>
+
+  <g id="baby-icon-1" transform="scale(0.8) translate(-120, 180)">
+    <use xlink:href="#baby-asleep-symbol"/>
+  </g>
+</symbol>
+
+
+<g id="laptop">
+    <path d="M 50 50
+             l 100 0
+             l 0 70
+             l 15 18
+             l -130 0
+             l 15 -18
+             l 0 -70"
+             stroke="black" fill="gainsboro" stroke-width="3" stroke-linejoin="round"
+             stroke-linecap="round" />
+    <path d="M 44 124
+             l 95 0
+             l 8 10
+             l -95 0
+             l 8 -10"
+             stroke="none" fill="gray" />
+    <line x1="50" x2="150" y1="120" y2="120" stroke="black"/>
+    <rect width="88" height="54" x="56" y="56" stroke="none" fill="white"/>
+</g>
+
+<g id="file-explorer">
+     <rect width="350" height="215" x="105" y="65" stroke="black" fill="none" />
+     <rect width="300" height="30" x="128" y="80" rx="5" stroke="black" fill="none" />
+     <text id="album-path" x="140" y="102">/photo-album/newborn/</text>
+</g>
+
+<g id="camera">
+    <use xlink:href="#camera-symbol"/>     
+    <g id="camera-baby-icon" transform="scale(0.5) translate(400, 120)">
+        <use xlink:href="#baby-asleep-symbol"/>
+    </g>
+</g>
+
+<g id="usb-cable-group">
+    <path id="usb-cable" d="M 700 260
+             l 0 60
+             a 20 20 0 0 1 -20 20
+             l -180 0"
+             stroke="black" fill="none" stroke-width="8" pathLength="1" />
+</g>
+
+<g id="photo-transfer">
+<use xlink:href="#baby-asleep-symbol"/>
+</g>
+
+<g id="photo-album-website" transform="scale(0.58) translate(84, 66)"> 
+    <use xlink:href="#website-symbol"/>
+</g>
+</svg>

@@ -1,0 +1,278 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 800 450"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+>
+
+<style>
+
+:root {
+  --src-phone: black;   
+  --dest-phone: darkslategray;
+  --animation-length: 3s;
+}
+
+#laptop {
+  fill: var(--src-phone);
+  stroke: var(--src-phone);
+}
+
+#hyper-label {
+  font-family: monospace;
+  font-size: 25px;
+}
+
+#website-title{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+  letter-spacing: 2px;
+}
+
+#website-title-sister{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+
+#website-title-mom{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+#screen-top {
+  animation-name: screen-top-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes screen-top-animation{
+  0% {
+      transform: translate(411px, 231px) scale(1, 0) translate(-411px, -231px);
+      opacity: 0;
+  }
+  20% {
+      transform: translate(411px, 231px) scale(1, 0) translate(-411px, -231px);
+      opacity: 0;
+  }
+  30% {
+      transform: translate(411px, 231px) scale(1, 1) translate(-411px, -231px);
+      opacity: 1;
+  }
+  100% {
+      transform: translate(411px, 231px) scale(1, 1) translate(-411px, -231px);
+      opacity: 1;
+  }
+}
+
+#screen-bottom {
+  animation-name: screen-bottom-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes screen-bottom-animation{
+  0% {
+      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
+                   scale(1, 0) translate(-411px, -231px);
+      opacity: 0;
+  }
+  20% {
+      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
+                   scale(1, 0) translate(-411px, -231px);
+      opacity: 0;
+  }
+  30% {
+      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
+                   scale(1, 1) translate(-411px, -231px);
+      opacity: 1;
+  }
+  100% {
+      transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
+                   scale(1, 1) translate(-411px, -231px);
+      opacity: 1;
+  }
+}
+
+.shutdown-line {
+  animation-name: infra-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes infra-animation{
+  0% {
+      opacity: 1;
+  }
+  20% {
+      opacity: 1;
+  }
+  30% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0;
+  }
+}
+
+</style>
+
+<rect width="800" height="450" fill="floralwhite" />
+
+<symbol id="baby-asleep-icon">
+  <rect width="120" height="180" x="340" y="90" stroke="black" fill="white" stroke-width="3" stroke-linejoin="round" />
+  <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+  <path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+  <path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+  <!-- head -->
+  <circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+  <path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+  <rect id="right-eye" width="8" height="3" x="384" y="144" rx="1" />
+  <rect id="left-eye" width="8" height="3" x="406" y="144" rx="1" />
+  <circle id="mouth" r="3" cx="400" cy="160"/>  
+</symbol>
+
+<symbol id="baby-awake-icon">
+  <rect width="120" height="180" x="340" y="90" stroke="black" fill="white" stroke-width="3" stroke-linejoin="round" />
+  <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+  <path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+  <path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+  <!-- head -->
+  <circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+  <path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+  <circle id="right-eye" r="3" cx="389" cy="144" fill="black" stroke="black"/>
+  <circle id="left-eye" r="3" cx="409" cy="144" fill="black" stroke="black" />
+  <!-- <circle id="mouth" r="3" cx="400" cy="160"/>   -->
+  <line x1="390" x2="408" y1="158" y2="158" stroke="black" stroke-width="3"/>
+</symbol>
+
+<symbol id="website-symbol">
+  <rect width="630" height="340" x="100" y="50" stroke="black" fill="aliceblue" />
+  <text id="website-title" x="200" y="140">
+    My Photo Album
+  </text>
+
+  <g id="baby-icon-1" transform="scale(0.8) translate(0, 140)">
+    <use xlink:href="#baby-asleep-icon"/>
+  </g>
+  
+</symbol>
+
+<g id="p2p-infra">
+  <line x1="240" x2="470" y1="180" y2="80" stroke="black" stroke-width="5" />
+  <line class="shutdown-line" x1="240" x2="420" y1="200" y2="300" stroke="black" stroke-width="5" />
+  <line class="shutdown-line" x1="530" x2="530" y1="150" y2="250" stroke="black" stroke-width="5" />
+</g>
+
+<g id="my-laptop">
+  <path d="M 80 130
+           l 160 0
+           l 0 100
+           l 30 25
+           l 0 5
+           l -220 0
+           l 0 -5
+           l 30 -25
+           l 0 -100"
+           stroke="black" fill="gainsboro" stroke-width="3" stroke-linejoin="round"
+           stroke-linecap="round" />
+  <path d="M 85 235
+           l 150 0
+           l 14 14
+           l -178 0"
+           stroke="none" fill="gray" />
+  <line x1="80" x2="240" y1="230" y2="230" stroke="black" stroke-width="2"/>
+  <line x1="50" x2="270" y1="256" y2="256" stroke="black" stroke-width="2"/>
+  <rect width="140" height="76" x="90" y="140" stroke="black" fill="white" />
+  
+  <g id="source-website" transform="scale(0.22) translate(312, 590)">
+    <use xlink:href="#website-symbol" /> 
+  </g>
+</g>
+
+<g id="sister-laptop">
+  <path d="M 460 50
+           l 140 0
+           l 0 90
+           l 25 20
+           l 0 3
+           l -190 0
+           l 0 -3
+           l 25 -20
+           l 0 -90"
+           stroke="black" fill="darkslategray" stroke-width="3" stroke-linejoin="round"
+           stroke-linecap="round" />
+  <path d="M 465 145
+           l 130 0
+           l 10 10
+           l -150 0"
+           stroke="none" fill="gray" />
+  <line x1="435" x2="625" y1="160" y2="160" stroke="black" stroke-width="2"/>
+  <line x1="460" x2="602" y1="140" y2="140" stroke="black" stroke-width="2"/>
+  <rect width="120" height="65" x="470" y="60" stroke="black" fill="white" />
+
+  <g id="website-sister">
+    <rect width="120" height="65" x="470" y="60" stroke="black" fill="aliceblue" />
+    <text id="website-title-sister" x="480" y="75">
+      My Photo Album
+    </text>
+
+    <g id="baby-icon-1" transform="scale(0.15) translate(3000, 500)">
+      <use xlink:href="#baby-asleep-icon"/>
+    </g>
+  </g>
+</g>
+
+<g id="mom-desktop">
+   <rect width="240" height="140" x="410" y="230" stroke="black" fill="white"
+   stroke-width="5" stroke-linejoin="round"/>
+   <rect width="40" height="30" x="510" y="370" />
+   <rect width="140" height="10" x="460" y="400" />
+
+  <g id="website-mom">
+    <rect width="240" height="140" x="410" y="230" stroke="black" fill="aliceblue" />
+    <text id="website-title-mom" x="425" y="265">
+      My Photo Album
+    </text>
+
+    <g id="baby-icon-1" transform="scale(0.4) translate(840, 610)">
+      <use xlink:href="#baby-asleep-icon"/>
+    </g>
+  </g>
+
+  <rect id="screen-top" width="238" height="69" x="411" y="231" fill="gray" stroke="gray"
+        transform="translate(411, 231) scale(1, 0) translate(-411, -231)"/>
+  <rect id="screen-bottom" width="238" height="69" x="411" y="231" fill="gray" stroke="gray"
+        transform="translate(411, 231) translate(0, 140) rotate(180) translate(-238, 2)
+                   scale(1, 0) translate(-411, -231)"/>
+
+</g>
+
+
+
+</svg>

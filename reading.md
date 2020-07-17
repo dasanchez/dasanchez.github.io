@@ -8,6 +8,7 @@ I am only listing the books I believe are worth sharing:
 
 | Title                                                    | Author(s)                      |                                                                                                |
 |----------------------------------------------------------|--------------------------------|:-----------------------------------------------------------------------------------------------|
+| Foundation                                               | Isaac Asimov                   | [Notes](/posts/foundation)                                                                     |
 | Red Mars                                                 | Kim Stanley Robinson           | [Wikipedia entry](https://en.wikipedia.org/wiki/Mars_trilogy)                                  |
 | Thieves of Bay Street                                    | Bruce Livesey                  | [Notes](/posts/thieves-bay-street)                                                             |
 | Parable of the Sower                                     | Octavia E. Butler              | [Notes](/posts/parable-of-the-sower)                                                           |

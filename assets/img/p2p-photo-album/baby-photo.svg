@@ -1,0 +1,204 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0  800 450"
+>
+
+<style>
+#baby {  
+  transform: translate(0px, -400px);
+  animation-name: baby-motion;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes baby-motion {
+  0% { 
+    transform:  translate(0px, -400px);
+    }
+  10% {
+    transform: translate(0px, 0px);
+  }
+  30% {
+    transform: translate(0px, 0px);
+  }
+  50% {
+      transform: translate(250px, -40px);
+  }
+  58% {
+      transform: translate(250px, -40px);
+  }
+  60% {
+      transform: translate(400px, 100px) scale(0.5) translate(-400px, -50px);
+  }
+  100% {
+      transform: translate(400px, 100px) scale(0.5) translate(-400px, -50px);
+  }
+
+}
+
+#dad-camera {
+  transform: translateX(-500px, 60px);
+  animation-name: panleft;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+}
+@keyframes panleft {
+  0% {
+    transform: translate(-500px, 60px);
+  }
+  28% {
+    transform: translate(-500px, 60px);
+  }
+  50% {
+    transform: translate(0px, 0px);
+  }
+  58% {
+  transform: translate(0px, 0px);
+  }
+  60% {
+  transform: translate(-500px, 0);
+  }
+  100% {
+  transform: translate(-500px, 0);
+  }
+}
+
+#camera {
+  transform:  skewY(5deg);
+  animation-name: camerapan;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+@keyframes camerapan {
+  0% {
+    transform: skewY(5deg);
+  }
+  50% {
+    transform: skewY(5deg);
+  }
+  58% {
+    transform: skewY(5deg);
+  }
+  60% {
+    transform: translate(400px, 300px) scale(2, 2) translate(-150px, -210px);
+  }
+  100% {
+    transform: translate(400px, 300px) scale(2, 2) translate(-150px, -210px);
+  }
+}
+
+#file-icon {
+    animation-name: file-display;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+@keyframes file-display {
+  0% {
+    opacity: 0;
+  }
+  66% {
+    opacity: 0;
+  }
+  74% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#flash {
+  animation-name: photo-flash;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes photo-flash {
+  50% {
+    opacity: 0;
+  } 
+  55% {
+    opacity: 0.5;
+    transform: translate(400px, 100px) scale(0, 0) translate(-400px,-100px);
+  }
+  58% {
+    opacity: 1;
+    transform: translate(400px,100px) scale(1,1) translate(-400px,-100px);
+  }
+  65% {
+    opacity: 1;
+  }
+  78% {
+  opacity: 0;
+  }
+}
+
+</style>
+
+<rect width="800" height="450" fill="floralwhite" />
+
+
+<g id="dad-camera">
+   
+<g id="dad">
+    <circle r="80" cx="180" cy="120" fill="white" stroke="black" stroke-width="3px"/>
+    <rect width="180" height="200" x="90" y="220" rx="40" fill="white" stroke="black" stroke-width="3px"/>
+</g>
+
+<g id="camera">
+    <rect width="90" height="180" x="355" y="80" stroke="black" stroke-width="3" fill="white" rx="10" />
+    <rect width="90" height="30" x="355" y="230" stroke="none" fill="black" rx="10" />
+    <rect width="90" height="10" x="355" y="230" stroke="none" fill="black"  />
+    <circle id="photo-button" r="10" cx="400" cy="212" fill="none" stroke="black" stroke-width="3" />
+    <rect width="90" height="20" x="355" y="80" stroke="none" fill="black" rx="10" />
+    <rect width="90" height="10" x="355" y="90" stroke="none" fill="black" />
+</g>
+</g>
+
+
+<g id="file-icon" opacity="0">
+<path d="M 340 100
+         l 100 0
+         l 20 20
+         l 0 120
+         l -120 0
+         l 0 -140
+         l 100 0
+         l 0 20
+         l 20 0"
+         stroke="black" fill="none" stroke-width="3" stroke-linejoin="round"/>
+</g>
+
+<g id="baby" transform="translate(250, -40)">
+<!-- torso -->
+<path id="swaddle" d="M 440 150
+                     l 0 110
+                     a 40 40 0 1 1 -80 0
+                     l 0 -110"
+                     stroke="black" fill="white" stroke-width="3" />
+<path id="fold_one" d="M 440 180
+                       a 180 180 90 0 0 -80 60"
+                           stroke="black" fill="none" stroke-width="3"/>
+<path id="fold_two" d="M 360 180
+                       a 200 200 90 0 1 40 20"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+<!-- head -->
+<circle id="head" r="50" cx="400" cy="120" fill="white" stroke-width="3" stroke="black" />
+<path id="swirl" d="M 400 70
+                    a 12 12 90 1 1 -12 12"
+                    stroke="black" fill="none" stroke-width="3"/>
+<rect id="right-eye" width="16" height="3" x="372" y="125" rx="1" />
+<rect id="left-eye" width="16" height="3" x="410" y="125" rx="1" />
+<circle id="mouth" r="4" cx="400" cy="150"/>  
+</g>
+
+
+<circle id="flash" r="800" cx="400" cy="100" fill="white" opacity="0" transform="scale(0, 0)"/>
+
+
+</svg>

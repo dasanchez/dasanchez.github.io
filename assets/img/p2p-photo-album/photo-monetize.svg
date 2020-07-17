@@ -1,0 +1,761 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0  800 450"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+<style>
+
+:root {
+  --src-phone: black;
+  --dest-phone: darkslategray;
+  --animation-length: 20s;
+}
+
+#source-phone {
+  fill: var(--src-phone);
+  stroke: var(--src-phone);
+}
+
+#destination-phone {
+  fill: var(--dest-phone);
+  stroke: var(--dest-phone);
+}
+
+#money-sign {
+    font: normal 350px serif;
+    font-family: monospace;
+}
+
+#goofbox-sign {
+  font: italic 48px serif;
+  font-family: Arial, Helvetica, sans-serif;
+  fill: black; 
+  letter-spacing: 2px;
+}
+
+#ads-sign {
+  font: normal 48px serif;
+  font-family: Arial, Helvetica, sans-serif;
+  fill: black; 
+  letter-spacing: 2px;
+}
+
+#at-symbol {
+  font: bold 50px sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#buy-text {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ads-s {
+  animation-name: money-icon-motion;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes money-icon-motion {
+  0% {
+    transform: scale(1);
+  }
+  5% {
+      transform: scale(1);
+  }
+  8% {
+    opacity: 1;
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-1000px, -350px);
+  }
+  10% {
+    opacity: 0;
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-1000px, -350px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-1000px, -350px);
+  }
+}
+
+#infrastructure {
+  animation-name: infra-visibility;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+@keyframes infra-visibility {
+  0% {
+    opacity: 0;
+  }
+  5% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#money-1 {
+  animation-name: money1-icon-motion;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes money1-icon-motion {
+  0% {
+    transform: translate(400px, 200px) scale(0.1) translate(-3000px,-1400px);
+  }
+  12% {
+    transform: translate(400px, 200px) scale(0.1) translate(-3000px,-1400px);
+  }
+  17% {
+    transform: translate(400px, 200px) scale(0.1) translate(-1300px,-1400px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(0.1) translate(-1300px,-1400px);
+  }
+}
+
+#money-2 {
+  animation-name: money2-icon-motion;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes money2-icon-motion {
+  0% {
+    transform: translate(400px, 200px) scale(0.1) translate(-3000px,-1400px);
+  }
+  14% {
+    transform: translate(400px, 200px) scale(0.1) translate(-3000px,-1400px);
+  }
+  19% {
+    transform: translate(400px, 200px) scale(0.1) translate(-1300px,-1400px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(0.1) translate(-1300px,-1400px);
+  }
+}
+
+#money-3 {
+  animation-name: money3-icon-motion;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes money3-icon-motion {
+  0% {
+    transform: translate(400px, 200px) scale(0.1) translate(-3000px,-1400px);
+  }
+  16% {
+    transform: translate(400px, 200px) scale(0.1) translate(-3000px,-1400px);
+  }
+  21% {
+    transform: translate(400px, 200px) scale(0.1) translate(-1300px,-1400px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(0.1) translate(-1300px,-1400px);
+  }
+}
+
+#requested-photo {
+  animation-name: baby-photo-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes baby-photo-travel {
+  0% {
+   transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(1217px, -416px);
+  }
+  22% {
+   transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(1217px, -416px);
+  }
+  25% {
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(0px, -250px);
+  }
+
+  28% {
+    transform: scale(2) translate(-200px, -70px);
+  }
+  32% {
+    transform: translate(400px, 200px) rotateY(0deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  35% {
+    transform: translate(400px, 200px) rotateY(90deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  54% {
+    transform: translate(400px, 200px) rotateY(90deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  57% {
+    transform: translate(400px, 200px) rotateY(0deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+    59% {
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(0px, -250px);
+  }
+    62% {
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-250px, -170px);
+  }
+   72% {
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-900px, -170px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(0.3) translate(-400px, -200px) translate(-900px, -170px);
+  }
+}
+
+#metadata {
+  animation-name: metadata-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes metadata-travel{
+  0% {
+    transform: translate(400px, 200px) rotateY(-90deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  35% {
+    transform: translate(400px, 200px) rotateY(-90deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  38% {
+    transform: translate(400px, 200px) rotateY(0deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  52% {
+    transform: translate(400px, 200px) rotateY(0deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  54% {
+    transform: translate(400px, 200px) rotateY(-90deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+  100% {
+    transform: translate(400px, 200px) rotateY(-90deg) translate(-400px, -200px) scale(2) translate(-200px, -70px);
+  }
+}
+
+#id-icon {
+  animation-name: id-icon-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes id-icon-travel{
+  0% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  38% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  40% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+}
+
+#address-icon {
+  animation-name: address-icon-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes address-icon-travel{
+  0% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  40% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  42% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+}
+
+#location-icon {
+  animation-name: location-icon-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes location-icon-travel{
+  0% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  42% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  44% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+}
+
+#share-icon {
+  animation-name: share-icon-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes share-icon-travel{
+  0% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  44% {
+    transform: translate(400px, 200px) scale(0) translate(-400px, -200px);
+  }
+  46% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+  100% {
+    transform: translate(400px, 200px) scale(1) translate(-400px, -200px);
+  }
+}
+
+#buy-icon-1 {
+  animation-name: buy-icon-1-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes buy-icon-1-travel{
+  0% {
+    transform: translate(-100px, 0px);
+  }
+  73% {
+    transform: translate(-100px, 0px);
+  }
+  75% {
+    transform: translate(0px, 0px);
+  }
+  76% {
+    transform: translate(40px, 120px);
+  }
+  77% {
+    transform: translate(-40px, 120px);
+  }
+  78% {
+    transform: translate(-50px, 170px);
+  }
+  79% {
+    transform: translate(-100px, 200px);
+  }
+  80% {
+    opacity: 1;
+    transform: translate(-160px, 200px);
+  }
+  85% {
+    opacity: 0;
+    transform: translate(-160px, 200px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-160px, 200px);
+  }
+}
+
+#buy-icon-2 {
+  animation-name: buy-icon-2-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes buy-icon-2-travel{
+  0% {
+    transform: translate(-100px, 0px);
+  }
+  77% {
+    transform: translate(-100px, 0px);
+  }
+  79% {
+    transform: translate(0px, 0px);
+  }
+  80% {
+    transform: translate(40px, 120px);
+  }
+  81% {
+    transform: translate(-40px, 120px);
+  }
+  82% {
+    transform: translate(-50px, 170px);
+  }
+  83% {
+    transform: translate(-100px, 200px);
+  }
+  84% {
+    opacity: 1;
+    transform: translate(-160px, 200px);
+  }
+  89% {
+    opacity: 0;
+    transform: translate(-160px, 200px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-160px, 200px);
+  }
+}
+
+#buy-icon-4 {
+  animation-name: buy-icon-4-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes buy-icon-4-travel{
+  0% {
+    transform: translate(-100px, 0px);
+  }
+  87% {
+    transform: translate(-100px, 0px);
+  }
+  89% {
+    transform: translate(0px, 0px);
+  }
+  90% {
+    transform: translate(40px, 120px);
+  }
+  91% {
+    transform: translate(-40px, 120px);
+  }
+  92% {
+    transform: translate(-50px, 170px);
+  }
+  93% {
+    transform: translate(-100px, 200px);
+  }
+  94% {
+    opacity: 1;
+    transform: translate(-160px, 200px);
+  }
+  95% {
+    opacity: 0;
+    transform: translate(-160px, 200px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-160px, 200px);
+  }
+}
+
+#buy-icon-3 {
+  animation-name: buy-icon-3-travel;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+}
+@keyframes buy-icon-3-travel{
+  0% {
+    transform: translate(-100px, 0px);
+  }
+  76% {
+    transform: translate(-100px, 0px);
+  }
+  77% {
+    transform: translate(0px, 0px);
+  }
+  78% {
+    transform: translate(40px, 120px);
+  }
+  79% {
+    transform: translate(100px, 180px);
+  }
+  80% {
+    transform: translate(290px, 180px);
+  }
+  81% {
+    transform: translate(330px, 150px);
+  }
+  82% {
+    transform: translate(380px, 150px);
+  }
+  83% {
+    transform: translate(400px, 190px);
+  }
+  84% {
+    opacity: 1;
+    transform: translate(500px, 190px);
+  }
+  89% {
+    opacity: 0;
+    transform: translate(500px, 190px);
+  }
+  100% {
+    opacity: 0;
+    transform: translate(500px, 190px);
+  }
+}
+
+</style>
+
+<rect width="800" height="450" fill="floralwhite" />
+
+<symbol id="baby-icon">
+  <path d="M 340 90
+         l 100 0
+         l 20 20
+         l 0 160
+         l -120 0
+         l 0 -180
+         l 100 0"
+         stroke="black" fill="white" stroke-width="3" stroke-linejoin="round"/>
+  <path d=" M 440 90 l 0 20 l 20 0" stroke="black" fill="none" stroke-width="3" />
+   <path id="swaddle" d="M 425 152
+                     l 0 70
+                     a 25 25 0 1 1 -50 0
+                     l 0 -70"
+                     stroke="black" fill="white" stroke-width="3" />
+  <path id="fold_one" d="M 425 176
+                       a 180 180 90 0 0 -50 40"
+                           stroke="black" fill="none" stroke-width="3"/>
+  <path id="fold_two" d="M 375 176
+                       a 500 500 90 0 1 30 12"
+                           stroke="black" fill="none" stroke-width="3"/>
+
+  <!-- head -->
+  <circle id="head" r="30" cx="400" cy="140" fill="white" stroke-width="3" stroke="black" />
+  <path id="swirl" d="M 400 110
+                    a 6 6 90 1 1 -6 6"
+                    stroke="black" fill="none" stroke-width="3"/>
+  <rect id="right-eye" width="8" height="3" x="382" y="144" rx="1" />
+  <rect id="left-eye" width="8" height="3" x="408" y="144" rx="1" />
+  <circle id="mouth" r="3" cx="400" cy="160"/>  
+</symbol>
+
+<symbol id="metadata-icon">
+  <path d="M 360 90
+         l 100 0
+         l 0 180
+         l -120 0
+         l 0 -160
+         l 20 -20"
+         stroke="black" fill="white" stroke-width="3" stroke-linejoin="round"/>
+  <g id="id-icon">
+     <circle r="8" cx="372" cy="120" />
+     <rect width="25" height="30" x="360" y="130" rx="4" />
+  </g>
+  <g id="address-icon">
+     <text id="at-symbol" x="402" y="150">@</text>
+  </g>
+  <g id="location-icon">
+     <path d="M 358 220 a 16 16 215 1 1 28 0 l -14 22"/>
+     <circle r="5" cx="372" cy="212" fill="white" />
+  </g>
+  <g id="share-icon">
+    <circle r="5" cx="415" cy="220" />
+    <circle r="5" cx="440" cy="208" />
+    <circle r="5" cx="440" cy="232" />
+    <path d="M 440 208 L 415 220 L 440 232" stroke="black" fill="none" stroke-width="2" />
+  </g>
+</symbol>
+
+<symbol id="phone">
+  <rect width="180" height="350" x="310" y="40" stroke-width="4" fill="white" rx="10" />
+  <rect width="180" height="50" x="310" y="340" rx="10" />
+  <rect width="180" height="10" x="310" y="340"  />
+  <circle id="photo-button" r="15" cx="400" cy="310" fill="none" stroke="black" stroke-width="3" />
+  <rect width="180" height="30" x="310" y="40" rx="10" />
+  <rect width="180" height="20" x="310" y="50" />
+</symbol>
+
+<symbol id="money-icon">
+    <circle r="210" cx="400" cy="225" stroke="black" stroke-width="4" fill="white" />
+    <text id="money-sign" x="290" y="340">$</text>
+</symbol>
+
+<symbol id="buy-icon-symbol">
+   <circle r="40" cx="220" cy="140" stroke="black" fill="white" stroke-width="3"/>
+  <text id="buy-text" x="185" y="150">BUY!</text>
+</symbol>
+
+<g id="infrastructure">
+  <g id="network">
+    <!-- netlines 1 -->
+    <path d="M 60 340
+           l 60 0
+           l 50 -30
+           l 10 -50
+           l 80 0
+           l 140 -20
+           l 0 -50"
+           stroke="black" fill="none" stroke-width="3"/>
+    <!-- netlines 2 -->
+    <path d="M 120 340
+           l 10 50"
+           stroke="black" fill="none" stroke-width="3"/>
+    <path d="M 120 340
+           l 100 20
+           l 100 -40
+           l 200 0
+           l 30 -30
+           l 50 0
+           l 20 40"
+           stroke="black" fill="none" stroke-width="3"/>
+    <path d="M 120 340
+             l 0 -50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 220 360
+             l 10 -50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 220 360
+             l 20 50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 220 360
+             l -30 60"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 260 260
+             l 60 60"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 400 240
+             l 120 80"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 550 240
+             l 0 50"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 600 220
+             l 0 70"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 600 290
+             l -50 100"
+             stroke="black" fill="none" stroke-width="3" />
+    <path d="M 520 120 l 150 -50" stroke="black" stroke-width="3" />
+    <path d="M 520 120 l 150 50" stroke="black" stroke-width="3" />
+    <path d="M 620 330 l 73 0" stroke="black" stroke-width="3" />
+    <path d="M 100 140 l 200 0" stroke="black" stroke-width="3" />
+    <path d="M 220 140 l 40 120" stroke="black" stroke-width="3" />
+      <!-- nodes -->
+      <circle r="8" cx="120" cy="340" />
+      <circle r="8" cx="170" cy="310" />
+      <circle r="8" cx="180" cy="260" />
+      <circle r="8" cx="260" cy="260" />
+      <circle r="8" cx="220" cy="360" />
+      <circle r="8" cx="400" cy="240" />
+      <circle r="8" cx="120" cy="290" />
+      <circle r="8" cx="130" cy="390" />
+      <circle r="8" cx="230" cy="310" />
+      <circle r="8" cx="190" cy="420" />
+      <circle r="8" cx="240" cy="410" />
+      <circle r="8" cx="320" cy="320" />
+      <circle r="8" cx="520" cy="320" />
+      <circle r="8" cx="550" cy="290" />
+      <circle r="8" cx="600" cy="290" />
+      <circle r="8" cx="620" cy="330" />
+      <circle r="8" cx="550" cy="240" />
+      <circle r="8" cx="600" cy="220" />
+      <circle r="8" cx="550" cy="390" />
+      <circle r="8" cx="220" cy="140" />
+  </g>
+
+  <g transform="scale(0.3, 0.3) translate(2150, 50)">
+    <use xlink:href="#baby-icon"/>
+  </g>
+  <g transform="scale(0.3, 0.3) translate(2150, 390)">
+   <use xlink:href="#baby-icon"/>
+  </g>
+
+
+  <g id="money-1" transform="translate(400, 200) scale(0.1) translate(-3000,-1230)">
+   <use xlink:href="#money-icon" />
+  </g>
+
+  <g id="money-2" transform="translate(400, 200) scale(0.1) translate(-3000,-1230)">
+   <use xlink:href="#money-icon" />
+  </g>
+
+  <g id="money-3" transform="translate(400, 200) scale(0.1) translate(-3000,-1230)">
+   <use xlink:href="#money-icon"/>
+  </g>
+
+  <g id="goofbox-building">
+    <rect width="240" height="150" x="280" y="40" stroke="black" fill="floralwhite" stroke-width="3" rx="5" />
+    <rect width="60" height="40" x="370" y="150" stroke="black" fill="none" stroke-width="3" />
+    <path d="M 400 150 l 0 40" stroke="black" stroke-width="2" />
+    <text id="goofbox-sign" x="305" y="90">Goofbox</text>
+  </g>
+
+  <g id="hard-drives">
+    <rect width="60" height="60" x="670" y="140" stroke="black" fill="floralwhite" stroke-width="3" rx="3" />
+    <ellipse cx="700" cy="180" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+    <ellipse cx="700" cy="170" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+    <ellipse cx="700" cy="160" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+
+    <rect width="60" height="60" x="670" y="40" stroke="black" fill="floralwhite" stroke-width="3" rx="3" />
+    <ellipse cx="700" cy="80" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+    <ellipse cx="700" cy="70" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+    <ellipse cx="700" cy="60" rx="20" ry="8" stroke="floralwhite" fill="black" stroke-width="4" />
+  </g>
+
+  <g id="source-phone" class="black-phone" transform="scale(0.2, 0.2) translate(-100, 1500)">
+    <use xlink:href="#phone"/>
+  </g>
+
+  <g id="destination-phone" class="red-phone" transform="scale(0.3) translate(2000, 900)">
+    <use xlink:href="#phone"/>
+  </g>
+
+  <g id="requested-photo" transform="scale(0.3, 0.3) translate(2150, 390)">
+    <use xlink:href="#baby-icon"/>
+  </g>
+
+
+</g>
+
+<g id="buy-icon-1">
+  <use xlink:href="#buy-icon-symbol"/>
+</g>
+
+<g id="buy-icon-2" opacity="0">
+  <use xlink:href="#buy-icon-symbol"/>
+</g>
+
+<g id="buy-icon-3">
+  <use xlink:href="#buy-icon-symbol"/>
+</g>
+
+<g id="buy-icon-4" opacity="0">
+  <use xlink:href="#buy-icon-symbol"/>
+</g>
+
+
+<g id="ads-r-us">
+  <rect width="150" height="200" x="20" y="20" stroke="black" fill="floralwhite" stroke-width="3" rx="4" />
+  <rect width="50" height="40" x="70" y="180" stroke="black" fill="none" stroke-width="3"/>
+  <path d=" M 95 220 l 0 -40" stroke="black" fill="none" stroke-width="2" />   
+  <text id="ads-sign" x="45" y="70">ADS</text>
+  <text id="ads-sign" x="80" y="120">R</text>
+  <text id="ads-sign" x="60" y="170">US</text>
+</g>
+
+<g id="ads-s">
+  <use xlink:href="#money-icon"/>
+</g>
+
+<g id="metadata">
+  <use xlink:href="#metadata-icon"/>
+</g>
+
+</svg>
+
