@@ -212,10 +212,11 @@ Instead of copying files from my phone to a local folder, I would like to have a
 
 This is the most complicated of the bunch, and goes hand-in-hand with the previous point. I will need to really think this one through and probably get more familiar with the Beaker/Hyperdrive API to find out how much of a challenge it would be.
 
-## Thanks
+# Thanks
 
-- To the folks at the [Dat Foundation](https://dat.foundation/) and [Beaker Browser](https://beakerbrowser.com/) for all the work you have put into these projects!
-- To [RangerMauve](https://github.com/RangerMauve) for all the help and tips you have given me!
+- To the folks at the [Dat Foundation](https://dat.foundation/) and [Beaker Browser](https://beakerbrowser.com/) for all the work you have put into these projects
+- To [RangerMauve](https://github.com/RangerMauve) for all the help and tips around Beaker and dat mirrors
+- To [Zach!](https://coolguy.website/) and [cameralibre](https://github.com/cameralibre) for introducing me to the wonderful world of SVG animations (yes, this is partly your doing!)
 
 ---
 
