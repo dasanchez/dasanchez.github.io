@@ -141,15 +141,15 @@ This setup does have a side added benefit of redundant data backups (assuming yo
 
 ## Bonus: Hosting on a BeagleBone
 
-Now, what if I need a bit more availability and I don't want to dedicate a full-blown computer to serving the website? I have a couple of single board computers around, so I dusted off the a [BeagleBone Green Wireless](http://beagleboard.org/green-wireless) and have been using it as a "Beaker mirror" for the last couple of months.
+Now, what if I need a bit more availability and I don't want to dedicate a full-blown computer to serving the website? I dusted off a [BeagleBone Green Wireless](http://beagleboard.org/green-wireless) I had lying around, and I have been using it as a "Beaker mirror" for the last couple of months.
 
 I followed the following steps once I had network access to the Beaglebone:
 
 1. Set up a microSD card as external storage.
 
-I flashed the Beaglebone in such a way that the onboard flash (4GB) worked as the main boot drive, and followed the instructions by Miles B. Dyson to [add microSD as extra storage](https://linuxpropaganda.wordpress.com/2018/10/10/beaglebone-black-add-microsd-as-extra-storage-in-ubuntu-server/).
+I flashed the BeagleBone in such a way that the onboard flash (4GB) worked as the main boot drive, and followed the instructions by Miles B. Dyson to [add a microSD card as extra storage](https://linuxpropaganda.wordpress.com/2018/10/10/beaglebone-black-add-microsd-as-extra-storage-in-ubuntu-server/).
 
-At this point, I have an 8GB microSD available in the `/media/microsd/` folder.
+At this point, I have an 8GB microSD card available in the `/media/microsd/` folder.
 
 Make a `hyperdrive` folder in the microSD folder:
 ```
@@ -165,7 +165,7 @@ Install the `n` module for `node.js`:
 dante@beaglebone:/media/microsd$ sudo npm install -g n
 ```
 
-`n` is a tool that allows you to run different versions of node.js on your computer.
+`n` is a tool that allows me to run different versions of node.js on the same computer.
 
 Then, set node.js to version 12.18.2 (that is the stable release version for ARM as I write this):
 
@@ -199,13 +199,10 @@ dante@beaglebone:/media/microsd$ dat-store add hyper://[hyperdrive key]
 
 Once the BeagleBone has synced to the latest version of the photo album, I am free to turn off my computer! The BeagleBone will stay on to make the files accessible to whoever requests the hyperdrive.
 
-## Credits
-
-Thanks for all the folks at the Dat Foundation, Beaker Browser, and RangerMauve for all the work and help 
 
 ## What's next?
 
-In no particular order, I would like to make the following upgrades:
+I would like to make the following upgrades:
 
 - **Add photos through a web interface**
 
@@ -215,3 +212,11 @@ Instead of copying files from my phone to a local folder, I would like to have a
 
 This is the most complicated of the bunch, and goes hand-in-hand with the previous point. I will need to really think this one through and probably get more familiar with the Beaker/Hyperdrive API to find out how much of a challenge it would be.
 
+## Thanks
+
+- To the folks at the [Dat Foundation](https://dat.foundation/) and [Beaker Browser](https://beakerbrowser.com/) for all the work you have put into these projects!
+- To [RangerMauve](https://github.com/RangerMauve) for all the help and tips you have given me!
+
+---
+
+Questions? Comments? [Give me a shout!](/about)
