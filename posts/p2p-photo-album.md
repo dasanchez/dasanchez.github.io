@@ -137,7 +137,7 @@ I have prepared a template based on the one provided by Beaker. You can go to [t
 
 ![Mom gets photo update](/assets/img/p2p-photo-album/sister-mom-update.svg)
 
-This setup does have a side added benefit of redundant data backups (assuming you have peers willing to host your bytes). If my computer breaks, I can recover the data as long as there is at least another machine online hosting the hyperdrive.
+This setup does have the added benefit of redundant data backups (assuming you have peers willing to host your bytes). If my computer breaks, I can recover the data as long as there is at least another machine online hosting the hyperdrive.
 
 ## Bonus: Hosting on a BeagleBone
 
