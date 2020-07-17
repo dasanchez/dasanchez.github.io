@@ -17,17 +17,6 @@
   stroke: var(--src-phone);
 }
 
-#hyper-label {
-  font-family: monospace;
-  font-size: 25px;
-}
-
-#website-title{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 52px;
-  letter-spacing: 2px;
-}
-
 #website-title-sister{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 10px;
@@ -40,82 +29,70 @@
   letter-spacing: 2px;
 }
 
-#screen-top {
-  transform: translate(411px, 231px) scale(1, 1) translate(-411px, -231px);
-}
-
-#screen-bottom {
-  transform: translate(411px, 231px) translate(0, 140px) rotate(180deg) translate(-238px, 2px)
-                   scale(1, 1) translate(-411px, -231px);
-}
-
-.shutdown-line {
-  opacity: 0;
-}
-
-#camera {
-  animation-name: camera-animation;
+#mom-screen-on {
+  animation-name: mom-screen-animation;
   animation-duration: var(--animation-length);
   animation-iteration-count: infinite;
   animation-direction: forwards;
-  animation-timing-function: ease;
+  animation-timing-function: linear;
 }
-@keyframes camera-animation {
-  0% {
-    transform: translate(0, 200px);
-  }
-  10% {
-    transform: translate(0, 200px);
-  }
-  15% {
-    transform: none;
-  }
-  37% {
-      transform: none;
-  }
-  40% {
-      transform: translate(0, 200px);
-  }
-  100% {
-    transform: translate(0, 200px);
-  }
+@keyframes mom-screen-animation {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    15% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-#camera-cable {
-    fill: none;
-    stroke-dasharray: 1;
-    stroke-dashoffset: 1;
-    animation: writeon var(--animation-length) ease infinite;
-}
-@keyframes writeon {
-    0% { stroke-dashoffset: 1; }
-    18% { stroke-dashoffset: 1;}
-    25% { stroke-dashoffset: 0;}
-    32% { stroke-dashoffset: 0;}
-    37% { stroke-dashoffset: 1;}
-    100% { stroke-dashoffset: 1; }
-}
-
-#new-baby-icon {
-  animation-name: new-photo-animation;
+#hyper-text {
+  animation-name: hyper-animation;
   animation-duration: var(--animation-length);
   animation-iteration-count: infinite;
   animation-direction: forwards;
-  animation-timing-function: ease-in;
+  animation-timing-function: linear;
 }
-@keyframes new-photo-animation {
-  0% {
-    opacity: 0;
-  }
-  25% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+@keyframes hyper-animation {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#website-mom {
+  animation-name: website-animation;
+  animation-duration: var(--animation-length);
+  animation-iteration-count: infinite;
+  animation-direction: forwards;
+  animation-timing-function: linear;
+}
+@keyframes website-animation {
+    0% {
+        opacity: 0;
+    }
+    60% {
+        opacity: 0;
+    }
+    62% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .p2p-link {
@@ -148,61 +125,11 @@
     stroke: black;
     stroke-width: 5px;
   }
-  75% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 0;
-  }
   100% {
-    opacity: 0;
     stroke: black;
   }
 }
 
-#sister-baby-icon {
-  animation-name: sister-photo-animation;
-  animation-duration: var(--animation-length);
-  animation-iteration-count: infinite;
-  animation-direction: forwards;
-  animation-timing-function: ease-in;
-}
-@keyframes sister-photo-animation {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 0;
-  }
-  55% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-#screen {
-  animation-name: screen-animation;
-  animation-duration: var(--animation-length);
-  animation-iteration-count: infinite;
-  animation-fill-mode: forwards;
-  animation-timing-function: linear;
-}
-@keyframes screen-animation{
-  0% {
-      opacity: 0;
-  }
-  75% {
-      opacity: 0;
-  }
-  85% {
-      opacity: 1;
-  }
-  100% {
-      opacity: 1;
-  }
-}
 </style>
 
 <rect width="800" height="450" fill="floralwhite" />
@@ -256,50 +183,8 @@
   <line x1="390" x2="408" y1="158" y2="158" stroke="black" stroke-width="3"/>
 </symbol>
 
-<symbol id="camera-symbol">
-    <rect width="90" height="180" x="355" y="80" stroke="black" stroke-width="3" fill="white" rx="10" />
-    <rect width="90" height="30" x="355" y="230" stroke="none" fill="black" rx="10" />
-    <rect width="90" height="10" x="355" y="230" stroke="none" fill="black"  />
-    <circle id="photo-button" r="10" cx="400" cy="212" fill="none" stroke="black" stroke-width="3" />
-    <rect width="90" height="20" x="355" y="80" stroke="none" fill="black" rx="10" />
-    <rect width="90" height="10" x="355" y="90" stroke="none" fill="black" />
-    <use xlink:href="#baby-awake-icon" transform="scale(0.5) translate(400, 120)" />
-</symbol>
-
-
-<symbol id="website-symbol">
-  <rect width="630" height="340" x="100" y="50" stroke="black" fill="aliceblue" />
-  <text id="website-title" x="200" y="140">
-    My Photo Album
-  </text>
-
-  <g id="baby-icon-1">
-    <use xlink:href="#baby-asleep-icon" transform="scale(0.8) translate(0, 140)" />
-  </g>
-
-  <g id="new-baby-icon">
-    <use xlink:href="#baby-awake-icon" transform="scale(0.8) translate(220, 140)"/>
-  </g>
-</symbol>
-
 <g id="p2p-infra">
-  <line class="p2p-link" x1="240" x2="470" y1="180" y2="80" stroke="black" stroke-width="5" />
-  <line class="shutdown-line" x1="240" x2="420" y1="200" y2="300" stroke="black" stroke-width="5" />
-  <line class="shutdown-line" x1="530" x2="530" y1="150" y2="250" stroke="black" stroke-width="5" />
-</g>
-
-<g id="camera-cable">
-  <path d="M 188 360
-           l -120 0
-           a 40 40 -90 0 1 -40 -40
-           l 0 -55
-           a 20 20 90 0 1 20 -20
-           l 15 0"
-           stroke="black" fill="none" stroke-width="5" pathLength="1"/>
-</g>
-
-<g id="camera">
-  <use xlink:href="#camera-symbol" transform="scale(0.8) translate(-120, 280)"/>
+  <line class="p2p-link" x1="530" x2="530" y1="150" y2="250" stroke="black" stroke-width="5" />
 </g>
 
 <g id="my-laptop">
@@ -321,13 +206,7 @@
            stroke="none" fill="gray" />
   <line x1="80" x2="240" y1="230" y2="230" stroke="black" stroke-width="2"/>
   <line x1="50" x2="270" y1="256" y2="256" stroke="black" stroke-width="2"/>
-  <rect width="140" height="76" x="90" y="140" stroke="black" fill="white" />
-  
-  <g id="source-website" transform="scale(0.22) translate(312, 590)">
-    <use xlink:href="#website-symbol" /> 
-  </g>
-
-  <rect id="screen" width="140" height="76" x="90" y="140" fill="gray" stroke="gray"/>
+  <rect width="140" height="76" x="90" y="140" stroke="black" fill="gray" />
 </g>
 
 <g id="sister-laptop">
@@ -357,10 +236,10 @@
       My Photo Album
     </text>
 
-    <g id="baby-icon-1" transform="scale(0.15) translate(3000, 520)">
-      <use xlink:href="#baby-asleep-icon"/>
+    <g id="baby-icon-1">
+      <use xlink:href="#baby-asleep-icon" transform="scale(0.15) translate(3000, 520)"/>
     </g>
-    <g id="sister-baby-icon">
+    <g id="baby-icon-2">
         <use xlink:href="#baby-awake-icon" transform="scale(0.15) translate(3250,520)"/>
     </g>
   </g>
@@ -379,11 +258,31 @@
 </g>
 
 <g id="mom-desktop">
-   <rect width="240" height="140" x="410" y="230" stroke="black" fill="gray"
-   stroke-width="5" stroke-linejoin="round"/>
-   <rect width="40" height="30" x="510" y="370" />
-   <rect width="140" height="10" x="460" y="400" />
+  <rect width="240" height="140" x="410" y="230" stroke="black" fill="gray"
+  stroke-width="5" stroke-linejoin="round"/>
+  <rect width="40" height="30" x="510" y="370" />
+  <rect width="140" height="10" x="460" y="400" />
 
+  <rect id="mom-screen-on" width="240" height="140" x="410" y="230" stroke="none" fill="white" />
+
+  <text id="hyper-text" x="450" y="310"
+    style="font-family: sans-serif; font-size: 42px; letter-spacing: 2px;">
+    hyper://
+  </text>
+
+  <g id="website-mom">
+    <rect width="240" height="140" x="410" y="230" stroke="black" fill="aliceblue" />
+    <text id="website-title-mom" x="430" y="260">
+      My Photo Album
+    </text>
+
+    <g id="baby-icon-1">
+      <use xlink:href="#baby-asleep-icon" transform="scale(0.4) translate(800, 610)"/>
+    </g>
+    <g id="baby-icon-2">
+        <use xlink:href="#baby-awake-icon" transform="scale(0.4) translate(1030, 610)"/>
+    </g>
+  </g>
 </g>
 
 </svg>

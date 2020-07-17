@@ -37,7 +37,7 @@ I see the business model of the hosting services I listed above as follows:
 
 I tried to visualize different models that would let me keep better ownership and control of my data.
 
-### Option A: Run Photo Management Software on a Dedicated Server
+## Option A: Run Photo Management Software on a Dedicated Server
 
 I could pick one of many existing solutions for private photo albums out there and run it on my own server (e.g. a [Digital Ocean](https://www.digitalocean.com/) droplet). The process would then look like this:
 
@@ -69,7 +69,7 @@ Also, I would have to either pay for a server or sort out access to one of my ho
 ❌ Heavy installation and maintenance requirements  
 ❌ Pay for dedicated server
 
-### Option B: Share Files Directly from my Computer
+## Option B: Share Files Directly from my Computer
 
 A different approach to relying on a single server is to have my relatives access the my computer (and the photo album) directly:
 
@@ -97,7 +97,7 @@ So, Option B is definitely my favourite one so far:
 ⚠ Requires a special browser and some web programing know-how  
 ⚠ Kinda so-so: I need to provide storage space
 
-The second point is critical in terms of data ownership: with this model, I become the sole owner of the data, but at the same time I alone am responsible for the storage media it lives on (hard drives, USB drives, SD cards, and so on). 
+This last point is critical in terms of data ownership: with this model, I become the sole owner of the data, but at the same time I alone am responsible for the storage media it lives on (hard drives, USB drives, SD cards, and so on). 
 
 Here is a scenario of how this works:
 
@@ -130,45 +130,88 @@ I have prepared a template based on the one provided by Beaker. You can go to [t
 {:start="6"}
 6. I add another photo: my sister's laptop gets the update, and I proceed to close Beaker.
 
-# TODO: Animation
+![New photo added](/assets/img/p2p-photo-album/hyper-new-photo.svg)
 
 {:start="7"}
 7. Mom can now get the latest photos from my sister next time she opens the site. Amazing!
 
-# TODO: Animation
+![Mom gets photo update](/assets/img/p2p-photo-album/sister-mom-update.svg)
 
 This setup does have a side added benefit of redundant data backups (assuming you have peers willing to host your bytes). If my computer breaks, I can recover the data as long as there is at least another machine online hosting the hyperdrive.
 
-Now, what if I need a bit more availability and I don't want to dedicate a full-blown computer to serving the website? I have a couple of single board computers around, so I dusted off the a Beaglebone Green Wireless and have been using it as a "Beaker mirror" for the last month.
+## Bonus: Hosting on a BeagleBone
 
-### Hosting on a Beaglebone
+Now, what if I need a bit more availability and I don't want to dedicate a full-blown computer to serving the website? I have a couple of single board computers around, so I dusted off the a [BeagleBone Green Wireless](http://beagleboard.org/green-wireless) and have been using it as a "Beaker mirror" for the last couple of months.
 
-This only took three steps after the initial setup and getting on my local WiFi network:
+I followed the following steps once I had network access to the Beaglebone:
 
-1. Set up a microSD card as external storage
+1. Set up a microSD card as external storage.
 
 I flashed the Beaglebone in such a way that the onboard flash (4GB) worked as the main boot drive, and followed the instructions by Miles B. Dyson to [add microSD as extra storage](https://linuxpropaganda.wordpress.com/2018/10/10/beaglebone-black-add-microsd-as-extra-storage-in-ubuntu-server/).
 
-2. Install [`hyperdrive-daemon`](https://github.com/hypercore-protocol/hyperdrive-daemon)
+At this point, I have an 8GB microSD available in the `/media/microsd/` folder.
 
-The stock images from Beaglebone with [Node.js](https://nodejs.org/en/) preinstalled, so it only takes one command to get the board ready for hosting hyperdrives!
+Make a `hyperdrive` folder in the microSD folder:
 ```
-debian@beaglebone:/media/microsd$ sudo npm install -g hyperdrive-daemon
+dante@beaglebone:/media/microsd$ mkdir hyperdrive
 ```
 
-3. Set up and run `hypercored`
+{:start="2"}
+2. Upgrade `node.js`.
 
-# TODO
+Install the `n` module for `node.js`:
 
-Once the Beaglebone has synced to the latest version of the photo album, I am free to turn off my computer! The Beaglebone will stay on to make the files accessible to whoever requests the hyperdrive.
+```
+dante@beaglebone:/media/microsd$ sudo npm install -g n
+```
+
+`n` is a tool that allows you to run different versions of node.js on your computer.
+
+Then, set node.js to version 12.18.2 (that is the stable release version for ARM as I write this):
+
+```
+dante@beaglebone:/media/microsd$ sudo n 12.18.2
+dante@beaglebone:/media/microsd$ node --version
+```
+The second command helps me verify that I am running the right version.
+
+{:start="3"}
+3. Install [`dat-store`](https://github.com/datproject/dat-store).
+
+```
+dante@beaglebone:/media/microsd$ sudo npm install -g dat-store --unsafe
+```
+I had to use the `--unsafe` flag so it would install without errors.
+
+{:start="4"}
+4. Run `dat-store`.
+
+Create a new `tmux` session and run `dat-store` inside it:
+```
+dante@beaglebone:/media/microsd$ tmux
+dante@beaglebone:/media/microsd$ dat-store run-service --storage-location /media/microsd/hyperdrive --expose-to-internet
+```
+
+Detach from the tmux session with `Ctrl+B` followed by the `D` key. Then, add the hyperdrive to the `dat-store`:
+```
+dante@beaglebone:/media/microsd$ dat-store add hyper://[hyperdrive key]
+```
+
+Once the BeagleBone has synced to the latest version of the photo album, I am free to turn off my computer! The BeagleBone will stay on to make the files accessible to whoever requests the hyperdrive.
+
+## Credits
+
+Thanks for all the folks at the Dat Foundation, Beaker Browser, and RangerMauve for all the work and help 
 
 ## What's next?
 
 In no particular order, I would like to make the following upgrades:
 
 - **Add photos through a web interface**
-Instead of copying files from my phone to a local folder, I would like to have a web portal avilable at home I can upload files to directly from my phone.
+
+Instead of copying files from my phone to a local folder, I would like to have a web portal at home I can upload files to directly from my phone.
 
 - **Allow other family members to contribute their images**
-This is the most complicated of the bunch, and goes hand-in-hand with the previous point. I will need to really think this one through and probably get more familiar with the Beaker API to find out how much of a challenge it would be.
+
+This is the most complicated of the bunch, and goes hand-in-hand with the previous point. I will need to really think this one through and probably get more familiar with the Beaker/Hyperdrive API to find out how much of a challenge it would be.
 
