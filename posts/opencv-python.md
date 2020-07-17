@@ -103,7 +103,6 @@ I add the video filename to the `args` array in the `launch.json` file, and now 
 
 ![OpenCV with ffmpeg](/assets/img/07/04_OPENCV_FFMPEG.PNG)
 
-
 I am currently porting all...a lot of the samples and exercises in [O'Reilly's Learning OpenCV](http://shop.oreilly.com/product/9780596516130.do) from C/C++ to Python. Check out [this Github repo](https://github.com/dasanchez/opencv_study) for lots of simple OpenCV examples.
 
 Questions? Comments? [Give me a shout!](/about)

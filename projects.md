@@ -53,6 +53,20 @@ layout: default
 <div class="projects-container">
     <div class="project-item">
         <div class="banner">
+            <a class="banner-link" href="/posts/p2p-photo-album">
+                <div class="project-thumbnail" id="p2p-album-thumbnail"></div>
+                <div class="project-name">
+                    <span>Make a P2P Photo Album</span>
+                </div>
+            </a>
+                <div class="project-description">
+                    <p class="project-header">Publish a website from your own computer!</p>
+                    <p>I make a case for using peer-to-peer protocols over centralized hosting services.</p>
+                </div>
+        </div>
+    </div>
+    <div class="project-item">
+        <div class="banner">
             <a class="banner-link" href="/posts/digitize-model">
                 <div class="project-thumbnail" id="digitize-thumbnail"></div>
                 <div class="project-name">
@@ -116,7 +130,7 @@ layout: default
                 </div>
             </a>
                 <div class="project-description">
-                    <p class="project-header">Setting up a toolchain for cross-compiling.</p>
+                    <p class="project-header">Set up a toolchain for cross-compiling.</p>
                     <p>I collected these notes for developing Qt-enabled software for a Beagleboard on a Linux Mint machine.</p>
                 </div>
         </div>

@@ -94,7 +94,6 @@ div .web-app-name, div .project-name {
   background-color: #fff;
   padding: 0.6rem;
   padding-bottom: 0;
-  // width: 80%;
 }
 
 .project-thumbnail {
@@ -105,6 +104,10 @@ div .web-app-name, div .project-name {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: calc(-2vw);
+}
+
+#p2p-album-thumbnail {
+  background-image: url("/assets/img/thumbs/baby-photo-static.svg");
 }
 
 #digitize-thumbnail {
