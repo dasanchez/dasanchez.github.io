@@ -71,7 +71,7 @@ Also, I would have to either pay for a server or sort out access to one of my ho
 
 ## Option B: Share Files Directly from my Computer
 
-A different approach to relying on a single server is to have my relatives access the my computer (and the photo album) directly:
+A different approach to relying on a single server is to have my relatives access my computer (and the photo album) directly:
 
 ![Peer-to-peer sharing](/assets/img/p2p-photo-album/direct-share.svg)
 
