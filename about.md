@@ -10,7 +10,7 @@ layout: default
 
 <span style="font-size: 1.2rem">💻</span>  I am interested in community networks and peer-to-peer technologies. I was the event coordinator for [Toronto Mesh](https://tomesh.net/) from 2018 to 2019, and I deliver [talks and workshops](speaking) related to privacy and peer-to-peer networks every now and then.
 
-<span style="font-size: 1.2rem">📖</span>  I am currently reading [Braiding Sweetgrass](https://en.wikipedia.org/wiki/Braiding_Sweetgrass), by Robin Wall Kimmerer.
+<span style="font-size: 1.2rem">📖</span>  I am currently reading [All We Can Save](https://www.allwecansave.earth/), a collection of poems and essays about the climate crisis.
 
 <div class="contact-options">
 <a href="mailto:dante.a.sanchez@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>

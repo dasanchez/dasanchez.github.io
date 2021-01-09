@@ -8,6 +8,8 @@ I am only listing the books I believe are worth sharing:
 
 | Title                                                    | Author(s)                      |                                                                                                |
 |----------------------------------------------------------|--------------------------------|:-----------------------------------------------------------------------------------------------|
+| The Skin We're In                                        | Desmond Cole                   | [Wikipedia entry](https://en.wikipedia.org/wiki/The_Skin_We%27re_In_(book))                    |
+| Braiding Sweetgrass                                      | Robin Wall Kimmerer            | [Wikipedia entry](https://en.wikipedia.org/wiki/Braiding_Sweetgrass)                           |
 | Foundation                                               | Isaac Asimov                   | [Notes](/posts/foundation)                                                                     |
 | Red Mars                                                 | Kim Stanley Robinson           | [Wikipedia entry](https://en.wikipedia.org/wiki/Mars_trilogy)                                  |
 | Thieves of Bay Street                                    | Bruce Livesey                  | [Notes](/posts/thieves-bay-street)                                                             |
