@@ -14,12 +14,13 @@ env:
     # - libcurl4-openssl-dev
 
 before_script:
+ - gem update --system
  - gem install bundler -v '2.0.2'
  - chmod +x ./script/cibuild
 
 script: ./script/cibuild
 
-cache: bundler
+# cache: bundler
 
 notifications:
 email: false
