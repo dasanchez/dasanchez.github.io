@@ -10,7 +10,7 @@ I am looking for an easy way to capture complex (read: organic) real-life geomet
 
 ## Source
 
-I have a physical model for an experimental computer mouse that I formed using [DAS modeling clay](http://canada.michaels.com/on/demandware.store/Sites-MichaelsCanada-Site/en_CA/Product-Show?pid=M10130210&cgid=845166492).  
+I have a physical model for an experimental computer mouse that I formed using [DAS modeling clay](https://canada.michaels.com/en/das-modeling-clay/M10130210.html).  
 Its only relevant features are:
 - A concave surface for each digit.
 - A thumb resting area where the touch pad will go.
