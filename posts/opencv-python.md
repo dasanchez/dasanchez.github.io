@@ -13,7 +13,7 @@ I am teaching myself computer vision and Python at the same time. These are the 
 
 ## Anaconda
 
-[Anaconda](https://www.continuum.io/downloads) is a Python-based data science ecosystem. It handles a number of packages and multiple Python installations in a single computer.
+[Anaconda](https://www.anaconda.com/products/individual) is a Python-based data science ecosystem. It handles a number of packages and multiple Python installations in a single computer.
 
 I install the 2.7 version for OpenCV and make sure to not add python.exe to the Windows PATH- I may install 2.7 and 3.5 side-by-side and I want to avoid conflicts by specifying which Python version I run every time.
 

@@ -77,7 +77,10 @@ Now that I am greeted with a *Hello World!*, I know I can use this compiler for 
 As of right now, the latest release of Qt is 5.5. I gave up trying to compile that for an arm device, and the newest version I have working is 4.8.6.
 I download the source package from here:
 
-[Qt Download Archive > Qt Everywhere 4.8.6](https://download.qt.io/archive/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz)
+[~Qt Download Archive > Qt Everywhere 4.8.6~](https://download.qt.io/archive/qt/4.8/4.8.6/qt-everywhere-opensource-src-4.8.6.tar.gz)
+_2021 Feb 26 update_: 4.8.6 seems to have been removed. You may want to try 4.8.4 instead, but I have not tested that:
+
+[Qt Download Archive: 4.8 versions](https://download.qt.io/archive/qt/4.8/)
 
 I uncompress the package and modify the following *qmake.conf* files to make sure they list the *arm-linuxgnueabihf-* prefix across the board. I am not entirely sure all three are necessary, but they work with the `configure` command I will use shortly.
 
