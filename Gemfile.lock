@@ -47,7 +47,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -89,7 +89,5 @@ PLATFORMS
 DEPENDENCIES
   html-proofer
   jekyll-theme-minimal!
-  kramdown-parser-gfm
-
-# BUNDLED WITH
+  kramdown-parser-gfm BUNDLED WITH
 #    2.0.2
