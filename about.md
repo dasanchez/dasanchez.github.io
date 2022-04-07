@@ -6,7 +6,7 @@ layout: default
 
 <span style="font-size: 1.2rem">🇨🇦</span>  I call Canada home. 
 
-<span style="font-size: 1.2rem">⚙</span>  I work as a Sr. Mechanical Engineer in a mass spectrometry research team at [PerkinElmer](https://www.perkinelmer.com). 
+<span style="font-size: 1.2rem">💼</span>  I am currently building digital infrastructure tooling for the [Hypha Worker Co-operative](https://www.hypha.coop). 
 
 <span style="font-size: 1.2rem">💻</span>  I am interested in community networks and peer-to-peer technologies. I was the event coordinator for [Toronto Mesh](https://tomesh.net/) from 2018 to 2019, and I deliver [talks and workshops](speaking) related to privacy and peer-to-peer networks every now and then.
 
