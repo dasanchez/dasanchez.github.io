@@ -46,6 +46,23 @@ layout: default
     </div>
 </div>
 
+{% if site.data.small_sites and site.data.small_sites.size > 0 %}
+### Small sites
+
+<div class="web-apps-container">
+{%- for s in site.data.small_sites %}
+<div class="web-apps-item">
+<a class="banner-link" href="/small-sites/{{ s.slug }}/">
+<div class="web-app-name banner-small-site"><span>{{ s.name | escape }}</span></div>
+</a>
+{%- if s.description != "" %}
+<div class="web-app-description"><p>{{ s.description | escape }}</p></div>
+{%- endif %}
+</div>
+{%- endfor %}
+</div>
+{% endif %}
+
 <!-- <br/> -->
 
 ### Build Notes and Tech Write-ups

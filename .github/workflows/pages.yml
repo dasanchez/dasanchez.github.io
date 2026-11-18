@@ -1,0 +1,59 @@
+name: Build and deploy Pages
+
+on:
+  push:
+    branches: [master]
+  workflow_dispatch:
+  schedule:
+    # Daily, so new sites in dasanchez/small-sites show up without a push here.
+    - cron: "17 6 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check out small-sites
+        uses: actions/checkout@v4
+        with:
+          repository: dasanchez/small-sites
+          path: .small-sites-src
+          # Rollback: pin a known-good commit with `ref: <sha>`.
+
+      - name: Copy small sites into the Jekyll source
+        env:
+          SMALL_SITES_DIR: .small-sites-src
+          # Rollback: space-separated slugs to leave out, e.g. "math-drill".
+          SMALL_SITES_EXCLUDE: ""
+        run: python3 -I script/fetch-small-sites
+
+      - uses: actions/configure-pages@v5
+
+      # Same github-pages gem set that classic Pages builds used.
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+
+      - uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
