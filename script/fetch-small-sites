@@ -1,0 +1,95 @@
+#!/usr/bin/env python3
+"""Copy each site from a dasanchez/small-sites checkout into this Jekyll source.
+
+Usage: script/fetch-small-sites [path-to-small-sites-checkout]
+
+The source defaults to $SMALL_SITES_DIR, then ../small-sites.
+Every top-level folder with an index.html is copied to small-sites/<name>/,
+and _data/small_sites.json is written with one entry per site:
+  {"slug": ..., "name": <title>, "description": <meta description>}
+
+Set SMALL_SITES_EXCLUDE to a space-separated list of slugs to leave out.
+Both outputs are gitignored; they are regenerated on every build.
+"""
+import json
+import os
+import re
+import shutil
+import sys
+from html.parser import HTMLParser
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+OUT_DIR = os.path.join(ROOT, "small-sites")
+DATA_FILE = os.path.join(ROOT, "_data", "small_sites.json")
+SLUG_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_-]*$")
+
+
+class MetaParser(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.title = ""
+        self.description = ""
+        self._in_title = False
+
+    def handle_starttag(self, tag, attrs):
+        attrs = dict(attrs)
+        if tag == "title":
+            self._in_title = True
+        elif tag == "meta" and (attrs.get("name") or "").lower() == "description":
+            self.description = (attrs.get("content") or "").strip()
+
+    def handle_endtag(self, tag):
+        if tag == "title":
+            self._in_title = False
+
+    def handle_data(self, data):
+        if self._in_title:
+            self.title += data
+
+
+def read_meta(index_path):
+    parser = MetaParser()
+    with open(index_path, encoding="utf-8") as f:
+        parser.feed(f.read())
+    return " ".join(parser.title.split()), " ".join(parser.description.split())
+
+
+def main():
+    src = (sys.argv[1] if len(sys.argv) > 1 else None) \
+        or os.environ.get("SMALL_SITES_DIR") \
+        or os.path.join(ROOT, "..", "small-sites")
+    src = os.path.abspath(src)
+    if not os.path.isdir(src):
+        sys.exit(f"fetch-small-sites: source not found: {src}")
+
+    exclude = set(os.environ.get("SMALL_SITES_EXCLUDE", "").split())
+
+    shutil.rmtree(OUT_DIR, ignore_errors=True)
+    os.makedirs(OUT_DIR)
+
+    sites = []
+    for name in sorted(os.listdir(src)):
+        site_dir = os.path.join(src, name)
+        index = os.path.join(site_dir, "index.html")
+        if not SLUG_RE.match(name) or os.path.islink(site_dir) \
+                or not os.path.isfile(index):
+            continue
+        if name in exclude:
+            print(f"  skip {name} (SMALL_SITES_EXCLUDE)")
+            continue
+        shutil.copytree(site_dir, os.path.join(OUT_DIR, name),
+                        ignore=shutil.ignore_patterns(".*"))
+        title, description = read_meta(index)
+        sites.append({"slug": name, "name": title or name,
+                      "description": description})
+        print(f"  {name}: {title or name}")
+
+    os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+    with open(DATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(sites, f, indent=2)
+        f.write("\n")
+    print(f"fetch-small-sites: {len(sites)} site(s) from {src}")
+
+
+if __name__ == "__main__":
+    main()
